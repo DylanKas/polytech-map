@@ -27,4 +27,5 @@ security:
             #form_login: ~
     access_control:
         # require ROLE_ADMIN for /admin*
+        # - { path: ^/backoffice, roles: ROLE_ADMIN }
         - { path: ^/backoffice, roles: ROLE_ADMIN }
