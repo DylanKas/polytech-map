@@ -11,22 +11,38 @@ class SecurityController extends Controller
     /**
      * @Route("/login", name="login")
      */
-    public function loginAction(Request $request,AuthenticationUtils $authenticationUtils)
+     public function loginAction(AuthenticationUtils $authenticationUtils)
+ {
+     // get the login error if there is one
+     $error = $authenticationUtils->getLastAuthenticationError();
+    // dump($error);
+
+     // last username entered by the user
+     $lastUsername = $authenticationUtils->getLastUsername();
+     dump($authenticationUtils);
+
+     return $this->render('security/login.html.twig', array(
+         'last_username' => $lastUsername,
+         'error'         => $error,
+     ));
+ }
+
+     /**
+      * @Route("/logincheck", name="login_check")
+      */
+      public function logincheckAction(AuthenticationUtils $authenticationUtils)
     {
-        // get the login error if there is one
-        $error = $authenticationUtils->getLastAuthenticationError();
-        // last username entered by the user
-        $lastUsername = $authenticationUtils->getLastUsername();
-        /*
-        dump($lastUsername);
-        dump($error);
-        dump($this->getUser());
-        dump($request);
-        */
-        return $this->render('security/login.html.twig', array(
-            'last_username' => $lastUsername,
-            'error'         => $error,
-        ));
+      // get the login error if there is one
+      $error = $authenticationUtils->getLastAuthenticationError();
+
+      // last username entered by the user
+      $lastUsername = $authenticationUtils->getLastUsername();
+      dump($authenticationUtils);
+
+      return $this->render('security/login.html.twig', array(
+          'last_username' => $lastUsername,
+          'error'         => $error,
+      ));
     }
 
 }

@@ -20,7 +20,7 @@ security:
             anonymous: ~
             form_login:
                 login_path: login
-                check_path: login
+                check_path: login_check
             # activate different ways to authenticate
 
             # https://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
@@ -30,5 +30,5 @@ security:
             #form_login: ~
     access_control:
         # require ROLE_ADMIN for /admin*
+         - { path: ^/logincheck, roles: ROLE_ADMIN }
         # - { path: ^/backoffice, roles: ROLE_ADMIN }
-        - { path: ^/backoffice, roles: ROLE_ADMIN }
