@@ -54,6 +54,7 @@ class User implements UserInterface
     private $roles;
 
     /**
+    * @ORM\Column(type="datetime")
      * @Assert\DateTime
      */
      protected $createdAt;
@@ -62,6 +63,7 @@ class User implements UserInterface
     {
         //$this->roles = array('ROLE_USER');
         $this->roles = array('ROLE_ADMIN');
+        $this->createdAd = date("Y-m-d H:i:s");
     }
 
     // other properties and methods
