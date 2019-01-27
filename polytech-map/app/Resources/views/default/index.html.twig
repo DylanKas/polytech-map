@@ -67,7 +67,7 @@
         <div class="row align-items-center">
           <div class="col-12" data-aos="fade">
             <h1>Analysez une région</h1>
-            <form action="#">
+            <form onSubmit="submitRegion(event)" action="#">
               <div class="row mb-3">
                 <div class="col-md-9">
                   <div class="row">
@@ -102,65 +102,37 @@
           <div class="col-4">
             <div id="map-preview" style="height: 30em"></div>
           </div>
-          <div class="col-8">
-            <div class="row">
-              <div class="col-sm-6 col-md-4 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="100">
-                <a href="#" class="h-100 feature-item">
-                  <span class="d-block icon flaticon-calculator mb-3 text-primary"></span>
-                  <h2>Accounting / Finanace</h2>
-                  <span class="counting">10,391</span>
+          <div class="col-4">
+            <h2 class="mb-5 h4">Vos critères</h2>
+              <div id="list-criterions" class="rounded jobs-wrap">
+
+                <a id="drop-criterion" class="border job-item d-block d-md-flex align-items-center border-bottom job-placeholder" ondrop="drop(event)" ondragover="allowDrop(event)">
+                  <div class="company-logo blank-logo text-center text-md-left pl-3">
+                  </div>
+                    <div class="p-3 align-self-center">
+                      <div class="d-block">
+                        Faites glisser un critère ici
+                      </div>
+                      <!--<div class="d-block d-lg-flex">
+                        <div class="mr-3"><span class="icon-suitcase mr-1"></span> Resto Bar</div>
+                        <div class="mr-3"><span class="icon-room mr-1"></span> Florida</div>
+                        <div><span class="icon-money mr-1"></span> $55000 &mdash; 70000</div>
+                      </div>-->
+                  </div>
+                  <!--<div class="job-category align-self-center">
+                    <div class="p-3">
+                      <span class="text-info p-2 rounded border border-info">Full Time</span>
+                    </div>
+                  </div> --> 
                 </a>
+
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="200">
-                <a href="#" class="h-100 feature-item">
-                  <span class="d-block icon flaticon-wrench mb-3 text-primary"></span>
-                  <h2>Automotive Jobs</h2>
-                  <span class="counting">192</span>
-                </a>
+          </div>
+          <div class="col-4">
+            <h2 class="mb-5 h4">Critères disponibles</h2>
+              <div id="available-cr" class="rounded jobs-wrap">
+
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="300">
-                <a href="#" class="h-100 feature-item">
-                  <span class="d-block icon flaticon-worker mb-3 text-primary"></span>
-                  <h2>Construction / Facilities</h2>
-                  <span class="counting">1,021</span>
-                </a>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="400">
-                <a href="#" class="h-100 feature-item">
-                  <span class="d-block icon flaticon-telecommunications mb-3 text-primary"></span>
-                  <h2>Telecommunications</h2>
-                  <span class="counting">1,219</span>
-                </a>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="500">
-                <a href="#" class="h-100 feature-item">
-                  <span class="d-block icon flaticon-stethoscope mb-3 text-primary"></span>
-                  <h2>Healthcare</h2>
-                  <span class="counting">482</span>
-                </a>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="600">
-                <a href="#" class="h-100 feature-item">
-                  <span class="d-block icon flaticon-computer-graphic mb-3 text-primary"></span>
-                  <h2>Design, Art &amp; Multimedia</h2>
-                  <span class="counting">5,409</span>
-                </a>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="700">
-                <a href="#" class="h-100 feature-item">
-                  <span class="d-block icon flaticon-trolley mb-3 text-primary"></span>
-                  <h2>Transportation &amp; Logistics</h2>
-                  <span class="counting">291</span>
-                </a>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="800">
-                <a href="#" class="h-100 feature-item">
-                  <span class="d-block icon flaticon-restaurant mb-3 text-primary"></span>
-                  <h2>Restaurant / Food Service</h2>
-                  <span class="counting">329</span>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -264,8 +236,6 @@
 <script src="{{ asset('js/mediaelement-and-player.min.js') }}"></script>
 
 <script src="{{ asset('js/main.js') }}"></script>
-
-
 <script>
     document.addEventListener('DOMContentLoaded', function() {
               var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
@@ -283,6 +253,41 @@
               });
               }
           });
+  </script>
+
+
+  <script>
+
+  function submitRegion (event) {
+
+  	event.preventDefault();
+  	(!window.requestAnimationFrame) ? window.scrollTo(0, 3000) : scrollTop(500);
+  }
+
+  function scrollTop(duration) {
+	    var start = window.scrollY || document.documentElement.scrollTop,
+	        currentTime = null;
+	        
+	    var animateScroll = function(timestamp){
+	    	if (!currentTime) currentTime = timestamp;        
+	        var progress = timestamp - currentTime;
+	        var val = Math.max(Math.easeInOutQuad(progress, start, -start, duration), 0);
+	        window.scrollTo(0, val);
+	        if(progress < duration) {
+	            window.requestAnimationFrame(animateScroll);
+	        }
+	    };
+
+	    window.requestAnimationFrame(animateScroll);
+	}
+
+	Math.easeInOutQuad = function (t, b, c, d) {
+ 		t /= d/2;
+		if (t < 1) return c/2*t*t + b;
+		t--;
+		return -c/2 * (t*(t-2) - 1) + b;
+	};
+
   </script>
 
 
@@ -356,34 +361,56 @@
   </script>
 
   <script>
+	function allowDrop(ev) {
+	  ev.preventDefault();
+	}
 
-  // initialize the map
-  var map = L.map('map-preview').setView([42.35, -71.08], 13);
+	function drag(ev) {
+	  ev.dataTransfer.setData("text", ev.target.id);
+	}
 
-  // load a tile layer
-  L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
-    {
-      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
-      maxZoom: 17,
-      minZoom: 9
-    }).addTo(map);
+	function drop(ev) {
+	  ev.preventDefault();
+	  var data = ev.dataTransfer.getData("text");
+	  document.getElementById("list-criterions").appendChild(document.getElementById(data));
+	  document.getElementById("list-criterions").appendChild(document.getElementById("drop-criterion"));
+	}
 
-  // initialize the map
-  var map2 = L.map('map-result').setView([42.35, -71.08], 13);
+	var selectedCriterion = null;
 
-  // load a tile layer
-  L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
-    {
-      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
-      maxZoom: 17,
-      minZoom: 9
-    }).addTo(map2);
+	/*function select(ev) {
+
+		ev = ev || window.event;
+  		var element = (ev.target || ev.srcElement);
+  		while (!element.id)
+  			element = element.parentNode;
+	  selectedCriterion = { id: element.id, x: 0, y: 0} ;
+	}
+
+	function move(ev) {
+
+		if (!selectedCriterion)
+			return;
+		ev = ev || window.event;
+  		var element = (ev.target || ev.srcElement);
+  		while (!element.id)
+  			element = element.parentNode;
+  		var thisCriterion = element.id;
+	  if (thisCriterion === selectedCriterion.id) {
+	  	console.log(ev);
+	  	selectedCriterion.x += ev.movementX;
+	  	selectedCriterion.y += ev.movementY;
+	  	document.getElementById(thisCriterion).style = `left: ${selectedCriterion.x}px; top: ${selectedCriterion.y}px;`;
+	  }
+	}*/
 
   </script>
 
+  <script src="js/index.js"/>
+
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&libraries=places&callback=initAutocomplete"
       async defer></script>
-<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+<script src="js/leaflet.js"></script>
 </body>
 {% endblock %}
 

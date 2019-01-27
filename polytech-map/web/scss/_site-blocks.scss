@@ -169,6 +169,8 @@
 }
 
 .jobs-wrap {
+	width: 100%;
+
 	.job-item {
 		display: block;
 		border-bottom: 1px solid $gray-400!important;
@@ -176,6 +178,23 @@
 		background: $white;
 		position: relative;
 		z-index: 1;
+
+		+ .job-item {
+			margin-top: 1em;
+		}
+		&.job-placeholder {
+
+			background-color: $gray-400;
+
+			.company-logo {
+
+				margin-left: 5px;
+				border: dashed 1px black;
+				max-width: 50px;
+				height: 50px;
+				border-radius: 4px;
+			}
+		}
 		&:hover {
 			background: $white;
 			box-shadow: 4px 0 40px 0 rgba(0,0,0,.1);
