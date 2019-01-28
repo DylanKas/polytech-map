@@ -34,9 +34,11 @@ public function ajaxAction(Request $request) {
 
       $pollutionRepository = $this->getDoctrine()->getRepository(Pollution::class);
       $ecoleRepository = $this->getDoctrine()->getRepository(Ecole::class);
-      //dump($gareRepository->find(100));
-      //dump($gareRepository->genererGeoJSON(45.5391, 6, 10));
 
+      $data = json_decode($request->getContent(), true);
+
+        dump($data);
+        return $data;
  //  if ($request->isXmlHttpRequest() || $request->query->get('showJson') == 1) {
    if ($request->isXmlHttpRequest()) {
       $jsonData = array();
