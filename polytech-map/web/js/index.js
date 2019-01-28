@@ -100,6 +100,8 @@ modules.map = (() => {
 
 		map.setView(latlng, 8);
 		console.log(geojson);
+		//var layer = L.geoJSON().addTo(map2);
+		//layer.addData(geojson);
 		L.geoJSON(geojson).addTo(map2);
 	}
 

@@ -326,7 +326,7 @@
         type: "POST",
         contentType: "application/json",
         dataType: "json",
-        data: {latlng, criterions: modules.form.applied()},
+        data: JSON.stringify({latlng, criterions: modules.form.applied()}),
         success
     });
   }
