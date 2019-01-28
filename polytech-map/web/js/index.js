@@ -99,6 +99,7 @@ modules.map = (() => {
 	let compute = (latlng, geojson) => {
 
 		map.setView(latlng, 8);
+		console.log(geojson);
 		L.geoJSON(geojson).addTo(map2);
 	}
 

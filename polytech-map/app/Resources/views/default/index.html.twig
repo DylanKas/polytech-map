@@ -318,12 +318,13 @@
     event.preventDefault();
     var success = (data) => {
       document.getElementById("step3").scrollIntoView({ block: 'start',  behavior: 'smooth' });
-      modules.map.compute([latlng.lat, latlng.lng], data);
+      modules.map.compute([latlng.lat, latlng.lng], JSON.parse(data));
     }
 
     $.ajax({
         url: "{{path('homepage_ajax')}}",
         type: "POST",
+        contentType: "application/json",
         dataType: "json",
         data: {latlng, criterions: modules.form.applied()},
         success
