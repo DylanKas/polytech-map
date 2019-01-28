@@ -6,6 +6,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use AppBundle\Entity\User;
+use AppBundle\Entity\Gare;
+use AppBundle\Entity\Pollution;
+use AppBundle\Entity\Ecole;
 
 
 class BackofficeController extends Controller
@@ -18,10 +21,11 @@ class BackofficeController extends Controller
         // replace this example code with whatever you need
         $entityManager = $this->getDoctrine()->getManager();
 
+        $gareRepository = $this->getDoctrine()->getRepository(Gare::class);
+        $pollutionRepository = $this->getDoctrine()->getRepository(Pollution::class);
+        $ecoleRepository = $this->getDoctrine()->getRepository(Ecole::class);
+        dump($pollutionRepository->find(100));
 
-
-        $repository = $this->getDoctrine()->getRepository(User::class);
-        dump($repository->findAll());
         return $this->render('default/backoffice.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);

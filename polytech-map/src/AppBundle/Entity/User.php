@@ -63,7 +63,7 @@ class User implements UserInterface
     {
         //$this->roles = array('ROLE_USER');
         $this->roles = array('ROLE_ADMIN');
-        $this->createdAd = date("Y-m-d H:i:s");
+        $this->createdAt = new \DateTime("now");
     }
 
     // other properties and methods

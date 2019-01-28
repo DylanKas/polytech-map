@@ -20,7 +20,18 @@ class UserRepository extends \Doctrine\ORM\EntityRepository
                 'SELECT u FROM AppBundle:User u ORDER BY u.id ASC'
             )
             ->getResult();
-            dump($res);
+            //dump($res);
+        return $res;
+    }
+
+    public function findAllOlderThan($dateTimestamp)
+    {
+        $res=$this->getEntityManager()
+            ->createQuery(
+                'SELECT u FROM AppBundle:User u WHERE u.createdAt > '.$dateTimestamp)
+            ->getResult();
+            dump('SELECT u FROM AppBundle:User u WHERE u.createdAt > '.$dateTimestamp);
+            //dump($res);
         return $res;
     }
 }
