@@ -47,10 +47,12 @@ modules.form = (() => {
 
 modules.map = (() => {
 
+	var map, map2;
+
 	let init = () => {
 
 		// initialize the map
-		var map = L.map('map-preview').setView([46.8000, 2.3522], 5);
+		map = L.map('map-preview').setView([46.8000, 2.3522], 5);
 
 		  // load a tile layer
 		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}',
@@ -80,10 +82,16 @@ modules.map = (() => {
 		    //minZoom: 9
 	}
 
+	let focus = (latlng) => {console.log(latlng);
+
+		map.setView(latlng, 8);
+	}
+
 	
 
 	return {
-		init
+		init,
+		focus
 	}
 })();
 

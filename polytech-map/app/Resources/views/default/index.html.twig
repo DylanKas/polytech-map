@@ -67,14 +67,14 @@
         <div class="row align-items-center">
           <div class="col-12" data-aos="fade">
             <h1>Analysez une région</h1>
-            <form onSubmit="submitRegion(event)" action="#">
+            <form onSubmit="endStep1(event)" action="#">
               <div class="row mb-3">
                 <div class="col-md-9">
                   <div class="row">
                     <div class="col-md-6 mb-3 mb-md-0">
                       <div class="input-wrap">
                         <span class="icon icon-room"></span>
-                      <input type="text" class="form-control form-control-block search-input  border-0 px-4" id="autocomplete" placeholder="ville, region..." onFocus="geolocate()">
+                      <input type="text" class="form-control form-control-block search-input  border-0 px-4" id="autocomplete" placeholder="ville, region...">
                       </div>
                     </div>
                     <div class="col-md-3 mb-3 mb-md-0">
@@ -91,7 +91,7 @@
     </div>
     
 
-    <div class="site-section">
+    <div id="step2" class="site-section">
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
@@ -135,12 +135,17 @@
               </div>
           </div>
         </div>
+        <div class="row">
+          <form class="mx-auto" onSubmit="endStep2(event)" action="#">
+            <input type="submit" class="btn btn-search btn-primary btn-block" value="Terminer">
+          </form>
+        </div>
 
       </div>
     </div>
 
 
-    <div class="site-section bg-light">
+    <div id="step3" class="site-section bg-light">
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
@@ -221,7 +226,6 @@
   </div>
 
 
-
 <script src="{{ asset('js/mediaelement-and-player.min.js') }}"></script>
 
 <script src="{{ asset('js/main.js') }}"></script>
@@ -244,14 +248,20 @@
           });
   </script>
 
+  <script src="https://cdn.jsdelivr.net/npm/places.js@1.15.4"></script>
+  <script>
+  var latlng;
+  var placesAutocomplete = places({
+    appId: 'plUWCIZ0K2IE',
+    apiKey: '4d5aedc65776bab895bca902f2930e53',
+    container: document.querySelector('#autocomplete')
+  });
+  placesAutocomplete.on('change', function resultSelected(e) {
+    latlng = e.suggestion.latlng || '';
+  });
+</script>
 
   <script>
-
-  function submitRegion (event) {
-
-  	event.preventDefault();
-  	(!window.requestAnimationFrame) ? window.scrollTo(0, 3000) : scrollTop(500);
-  }
 
   function scrollTop(duration) {
 	    var start = window.scrollY || document.documentElement.scrollTop,
@@ -335,6 +345,7 @@
     function geolocate() {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
+          console.log(position);
           var geolocation = {
             lat: position.coords.latitude,
             lng: position.coords.longitude
@@ -343,7 +354,10 @@
             center: geolocation,
             radius: position.coords.accuracy
           });
+          console.log(circle);
           autocomplete.setBounds(circle.getBounds());
+        }, function(positionError) {
+          console.log(positionError);
         });
       }
     }
@@ -364,6 +378,20 @@
 	  document.getElementById("list-criterions").appendChild(document.getElementById(data));
 	  document.getElementById("list-criterions").appendChild(document.getElementById("drop-criterion"));
 	}
+
+  function endStep1 (event) {
+
+    event.preventDefault();
+    document.getElementById("step2").scrollIntoView({ block: 'start',  behavior: 'smooth' });
+    modules.map.focus([latlng.lat, latlng.lng]);
+  }
+
+  function endStep2 (event) {
+
+    event.preventDefault();
+    document.getElementById("step3").scrollIntoView({ block: 'start',  behavior: 'smooth' });
+
+  }
 
 	var selectedCriterion = null;
 
