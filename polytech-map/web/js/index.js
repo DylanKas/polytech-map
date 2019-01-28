@@ -101,9 +101,8 @@ modules.map = (() => {
 		map2.setView(latlng, 13);
 		//var layer = L.geoJSON().addTo(map2);
 		//layer.addData(geojson);
-		data = JSON.parse(data);
 
-      	Object.keys(data).forEach(key => {
+      	Object.keys(data).forEach(key => {console.log(key);
       		var geojson = L.geoJSON(data[key], idToStyle(key));
 			geojson.addTo(map2);
       	});
@@ -120,6 +119,54 @@ modules.map = (() => {
 					     iconAnchor: [13, 27],
 					     popupAnchor:  [1, -24],
 					     iconUrl: 'images/map/station.png'
+					 });
+	                return L.marker(coords, {icon: smallIcon});
+	            }
+	        };
+		case "pharmacy":
+			return {
+	            pointToLayer: function(feature, coords) {
+	                var smallIcon = new L.Icon({
+					     iconSize: [27, 27],
+					     iconAnchor: [13, 27],
+					     popupAnchor:  [1, -24],
+					     iconUrl: 'images/map/pharmacy.png'
+					 });
+	                return L.marker(coords, {icon: smallIcon});
+	            }
+	        };
+		case "ecole":
+			return {
+	            pointToLayer: function(feature, coords) {
+	                var smallIcon = new L.Icon({
+					     iconSize: [18, 18],
+					     iconAnchor: [9, 18],
+					     popupAnchor:  [1, -15],
+					     iconUrl: 'images/map/school.png'
+					 });
+	                return L.marker(coords, {icon: smallIcon});
+	            }
+	        };
+		case "cafe":
+			return {
+	            pointToLayer: function(feature, coords) {
+	                var smallIcon = new L.Icon({
+					     iconSize: [18, 18],
+					     iconAnchor: [9, 18],
+					     popupAnchor:  [1, -15],
+					     iconUrl: 'images/map/cafe.png'
+					 });
+	                return L.marker(coords, {icon: smallIcon});
+	            }
+	        };
+		case "parking":
+			return {
+	            pointToLayer: function(feature, coords) {
+	                var smallIcon = new L.Icon({
+					     iconSize: [18, 18],
+					     iconAnchor: [9, 18],
+					     popupAnchor:  [1, -15],
+					     iconUrl: 'images/map/parking.png'
 					 });
 	                return L.marker(coords, {icon: smallIcon});
 	            }
@@ -143,9 +190,11 @@ modules.app = (() => {
 
 		modules.map.init();
 		modules.form.newCriterion("gare", "Gares ferroviaires", "images/icons/station.png");
-		modules.form.newCriterion("pollution", "Pollution", "images/icons/pollution.png");
+		modules.form.newCriterion("pharmacy", "Pharmacies", "images/icons/pharmacy.png");
 		modules.form.newCriterion("ecole", "Ecoles", "images/icons/school.png");
-		//dragula([document.getElementById("list-criterions"), document.getElementById("available-cr")]);
+		modules.form.newCriterion("cafe", "Cafés", "images/icons/cafe.png");
+		modules.form.newCriterion("parking", "Parkings", "images/icons/parking.png");
+		//modules.form.newCriterion("pollution", "Pollution", "images/icons/pollution.png");
 	}
 
 	return {
