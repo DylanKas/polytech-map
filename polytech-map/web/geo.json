@@ -6,7 +6,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7173, 4.81351]
+                                 "coordinates": [4.81351, 45.7173]
                                },
                                "properties": {
                                  "name": "Gare de Oullins"
@@ -17,18 +17,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7884, 4.72981]
-                               },
-                               "properties": {
-                                 "name": "Gare de Casino-Lacroix-Laval"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [45.7727, 4.74691]
+                                 "coordinates": [4.74691, 45.7727]
                                },
                                "properties": {
                                  "name": "Gare de La Ferrière"
@@ -39,7 +28,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7617, 4.75855]
+                                 "coordinates": [4.75855, 45.7617]
                                },
                                "properties": {
                                  "name": "Gare de Tassin"
@@ -50,7 +39,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7659, 4.80446]
+                                 "coordinates": [4.80446, 45.7659]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-Gorge-de-Loup"
@@ -61,7 +50,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7911, 4.86211]
+                                 "coordinates": [4.86211, 45.7911]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-St-Clair"
@@ -72,7 +61,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7068, 4.82465]
+                                 "coordinates": [4.82465, 45.7068]
                                },
                                "properties": {
                                  "name": "Gare de Pierre-Bénite"
@@ -83,7 +72,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.6985, 4.76451]
+                                 "coordinates": [4.76451, 45.6985]
                                },
                                "properties": {
                                  "name": "Gare de Chaponost"
@@ -94,7 +83,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7517, 4.77153]
+                                 "coordinates": [4.77153, 45.7517]
                                },
                                "properties": {
                                  "name": "Gare de Alai"
@@ -105,7 +94,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.745, 4.8419]
+                                 "coordinates": [4.8419, 45.745]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-Jean-Macé"
@@ -116,7 +105,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7769, 4.75401]
+                                 "coordinates": [4.75401, 45.7769]
                                },
                                "properties": {
                                  "name": "Gare de Les Flachères"
@@ -127,7 +116,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7908, 4.86133]
+                                 "coordinates": [4.86133, 45.7908]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-St-Clair"
@@ -138,7 +127,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7052, 4.88798]
+                                 "coordinates": [4.88798, 45.7052]
                                },
                                "properties": {
                                  "name": "Gare de Vénissieux-Voyageurs"
@@ -149,18 +138,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7823, 4.73574]
-                               },
-                               "properties": {
-                                 "name": "Gare de Charbonnières-les-Bains"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [45.7689, 4.74826]
+                                 "coordinates": [4.74826, 45.7689]
                                },
                                "properties": {
                                  "name": "Gare de Le Méridien"
@@ -171,7 +149,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7484, 4.82287]
+                                 "coordinates": [4.82287, 45.7484]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-Perrache-Voyageurs"
@@ -182,7 +160,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7605, 4.8602]
+                                 "coordinates": [4.8602, 45.7605]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-Part-Dieu"
@@ -193,7 +171,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7959, 4.76002]
+                                 "coordinates": [4.76002, 45.7959]
                                },
                                "properties": {
                                  "name": "Gare de Dardilly-les-Mouilles"
@@ -204,7 +182,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.8198, 4.87537]
+                                 "coordinates": [4.87537, 45.8198]
                                },
                                "properties": {
                                  "name": "Gare de Sathonay-Rillieux"
@@ -215,7 +193,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7464, 4.82228]
+                                 "coordinates": [4.82228, 45.7464]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-Perrache-Marchandises"
@@ -226,7 +204,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7281, 4.84806]
+                                 "coordinates": [4.84806, 45.7281]
                                },
                                "properties": {
                                  "name": "Gare de Port-Édouard-Herriot"
@@ -237,7 +215,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7802, 4.80341]
+                                 "coordinates": [4.80341, 45.7802]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-Vaise"
@@ -248,7 +226,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.744, 4.84509]
+                                 "coordinates": [4.84509, 45.744]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-Guillotière"
@@ -259,7 +237,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.8289, 4.84643]
+                                 "coordinates": [4.84643, 45.8289]
                                },
                                "properties": {
                                  "name": "Gare de Collonges-Fontaines"
@@ -270,7 +248,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.766, 4.7797]
+                                 "coordinates": [4.7797, 45.766]
                                },
                                "properties": {
                                  "name": "Gare de Écully-la-Demi-Lune"
@@ -281,7 +259,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7663, 4.82558]
+                                 "coordinates": [4.82558, 45.7663]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-St-Paul"
@@ -292,7 +270,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7483, 4.82564]
+                                 "coordinates": [4.82564, 45.7483]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-Perrache-Voyageurs"
@@ -303,7 +281,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7906, 4.86261]
+                                 "coordinates": [4.86261, 45.7906]
                                },
                                "properties": {
                                  "name": "Gare de Lyon-St-Clair"
@@ -314,7 +292,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7314, 4.77028]
+                                 "coordinates": [4.77028, 45.7314]
                                },
                                "properties": {
                                  "name": "Gare de Francheville"
@@ -325,7 +303,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7617, 4.75897]
+                                 "coordinates": [4.75897, 45.7617]
                                },
                                "properties": {
                                  "name": "Gare de Tassin"
@@ -336,7 +314,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.8146, 4.76167]
+                                 "coordinates": [4.76167, 45.8146]
                                },
                                "properties": {
                                  "name": "Gare de Dardilly-le-Jubin"
@@ -347,7 +325,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.6963, 4.90989]
+                                 "coordinates": [4.90989, 45.6963]
                                },
                                "properties": {
                                  "name": "Gare de Vénissieux-Nord"
@@ -358,7 +336,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.8196, 4.87528]
+                                 "coordinates": [4.87528, 45.8196]
                                },
                                "properties": {
                                  "name": "Gare de Sathonay-Rillieux"
@@ -369,7 +347,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.7058, 4.85235]
+                                 "coordinates": [4.85235, 45.7058]
                                },
                                "properties": {
                                  "name": "Gare de St-Fons"
@@ -380,7 +358,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.8226, 4.87843]
+                                 "coordinates": [4.87843, 45.8226]
                                },
                                "properties": {
                                  "name": "Gare de Sathonay-Rillieux"
@@ -391,7 +369,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.6658, 4.85282]
+                                 "coordinates": [4.85282, 45.6658]
                                },
                                "properties": {
                                  "name": "Gare de Feyzin"
@@ -402,7 +380,7 @@
                                "type": "Feature",
                                "geometry": {
                                  "type": "Point",
-                                 "coordinates": [45.8037, 4.89258]
+                                 "coordinates": [4.89258, 45.8037]
                                },
                                "properties": {
                                  "name": "Gare de Crépieux-la-Pape"

@@ -12,12 +12,12 @@ modules.form = (() => {
 	let criterions = [];
 	let applied = [];
 
-	let newCriterion = (name, imgsrc) => {
+	let newCriterion = (id, name, imgsrc) => {
 
 		var c = document.createElement("a");
 		c.className = "border job-item d-block d-md-flex align-items-center border-bottom freelance";
 		c.setAttribute("id", "criterion-el-" + name.split(' ').join('-'));
-		c.setAttribute("criterion-name", name);
+		c.setAttribute("criterion-id", id);
 		c.setAttribute("draggable", "true");
 		c.setAttribute("ondragstart", "drag(event)");
 		//c.setAttribute("onmousedown", "select(event)");
@@ -67,20 +67,20 @@ modules.map = (() => {
 		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}',
 		    {
 		      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		      maxZoom:109,
+		      maxZoom: 13,
 		      minZoom: 5,
     		  id: 'mapbox.streets',
 		      token: "pk.eyJ1IjoiZmx5bm5zcCIsImEiOiJjamZ1eDMzeWcwdWNsMzRxcW13emE0eDV4In0.ISjzHgiemEAyrgxIlqFRfw"
 		    }).addTo(map);
 
 		  // initialize the map
-		  var map2 = L.map('map-result').setView([46.8000, 2.3522], 5);
+		  map2 = L.map('map-result').setView([46.8000, 2.3522], 5);
 
 		  // load a tile layer
 		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}',
 		    {
 		      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		      maxZoom: 10,
+		      maxZoom: 17,
 		      minZoom: 5,
     		  id: 'mapbox.streets',
 		      token: "pk.eyJ1IjoiZmx5bm5zcCIsImEiOiJjamZ1eDMzeWcwdWNsMzRxcW13emE0eDV4In0.ISjzHgiemEAyrgxIlqFRfw"
@@ -93,16 +93,31 @@ modules.map = (() => {
 
 	let focus = (latlng) => {
 
-		map.setView(latlng, 8);
+		map.setView(latlng, 12);
 	}
 
 	let compute = (latlng, geojson) => {
 
-		map.setView(latlng, 8);
+		map2.setView(latlng, 13);
 		console.log(geojson);
 		//var layer = L.geoJSON().addTo(map2);
 		//layer.addData(geojson);
-		L.geoJSON(geojson).addTo(map2);
+		var objgjson = L.geoJSON(geojson, {
+            pointToLayer: function(feature, coords) {
+                var smallIcon = new L.Icon({
+				     iconSize: [27, 27],
+				     iconAnchor: [13, 27],
+				     popupAnchor:  [1, -24],
+				     iconUrl: 'images/map/station.png'
+				 });
+                return L.marker(coords, {icon: smallIcon});
+            }/*,
+           onEachFeature: function (feature, layer) {
+                   layer.bindPopup(feature.properties.ATT1 + '<br />'
+                                                 + feature.properties.ATT2);
+           }*/
+         });
+		objgjson.addTo(map2);
 	}
 
 	
@@ -119,8 +134,9 @@ modules.app = (() => {
 	let run = () => {
 
 		modules.map.init();
-		modules.form.newCriterion("Gares ferroviaires", "images/icons/pollution.png");
-		modules.form.newCriterion("Autre critère", "images/icons/pollution.png");
+		modules.form.newCriterion("gare", "Gares ferroviaires", "images/icons/station.png");
+		modules.form.newCriterion("pollution", "Pollution", "images/icons/pollution.png");
+		modules.form.newCriterion("ecole", "Ecoles", "images/icons/school.png");
 		//dragula([document.getElementById("list-criterions"), document.getElementById("available-cr")]);
 	}
 

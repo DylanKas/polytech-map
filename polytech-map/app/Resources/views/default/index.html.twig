@@ -301,7 +301,7 @@
 	function drop(ev) {
 	  ev.preventDefault();
 	  var data = ev.dataTransfer.getData("text");
-    modules.form.apply(document.getElementById(data).getAttribute("criterion-name"));
+    modules.form.apply(document.getElementById(data).getAttribute("criterion-id"));
 	  document.getElementById("list-criterions").appendChild(document.getElementById(data));
 	  document.getElementById("list-criterions").appendChild(document.getElementById("drop-criterion"));
 	}
@@ -333,32 +333,6 @@
 
 	var selectedCriterion = null;
 
-	/*function select(ev) {
-
-		ev = ev || window.event;
-  		var element = (ev.target || ev.srcElement);
-  		while (!element.id)
-  			element = element.parentNode;
-	  selectedCriterion = { id: element.id, x: 0, y: 0} ;
-	}
-
-	function move(ev) {
-
-		if (!selectedCriterion)
-			return;
-		ev = ev || window.event;
-  		var element = (ev.target || ev.srcElement);
-  		while (!element.id)
-  			element = element.parentNode;
-  		var thisCriterion = element.id;
-	  if (thisCriterion === selectedCriterion.id) {
-	  	console.log(ev);
-	  	selectedCriterion.x += ev.movementX;
-	  	selectedCriterion.y += ev.movementY;
-	  	document.getElementById(thisCriterion).style = `left: ${selectedCriterion.x}px; top: ${selectedCriterion.y}px;`;
-	  }
-	}*/
-
   </script>
 
   <script src="js/index.js"/>
@@ -372,33 +346,4 @@
 {% block stylesheets %}
 {{ parent() }}
 
-{#
-<style>
-    body { background: #F5F5F5; font: 18px/1.5 sans-serif; }
-    h1, h2 { line-height: 1.2; margin: 0 0 .5em; }
-    h1 { font-size: 36px; }
-    h2 { font-size: 21px; margin-bottom: 1em; }
-    p { margin: 0 0 1em 0; }
-    a { color: #0000F0; }
-    a:hover { text-decoration: none; }
-    code { background: #F5F5F5; max-width: 100px; padding: 2px 6px; word-wrap: break-word; }
-    #wrapper { background: #FFF; margin: 1em auto; max-width: 800px; width: 95%; }
-    #container { padding: 2em; }
-    #welcome, #status { margin-bottom: 2em; }
-    #welcome h1 span { display: block; font-size: 75%; }
-    #icon-status, #icon-book { float: left; height: 64px; margin-right: 1em; margin-top: -4px; width: 64px; }
-    #icon-book { display: none; }
-
-    @media (min-width: 768px) {
-        #wrapper { width: 80%; margin: 2em auto; }
-        #icon-book { display: inline-block; }
-        #status a, #next a { display: block; }
-
-        @-webkit-keyframes fade-in { 0% { opacity: 0; } 100% { opacity: 1; } }
-        @keyframes fade-in { 0% { opacity: 0; } 100% { opacity: 1; } }
-        .sf-toolbar { opacity: 0; -webkit-animation: fade-in 1s .2s forwards; animation: fade-in 1s .2s forwards;}
-    }
-
-</style>
-#}
 {% endblock %}
