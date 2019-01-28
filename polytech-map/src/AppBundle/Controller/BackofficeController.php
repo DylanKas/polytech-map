@@ -9,6 +9,7 @@ use AppBundle\Entity\User;
 use AppBundle\Entity\Gare;
 use AppBundle\Entity\Pollution;
 use AppBundle\Entity\Ecole;
+use AppBundle\Entity\Interet;
 
 
 class BackofficeController extends Controller
@@ -25,7 +26,8 @@ class BackofficeController extends Controller
 
         $pollutionRepository = $this->getDoctrine()->getRepository(Pollution::class);
         $ecoleRepository = $this->getDoctrine()->getRepository(Ecole::class);
-        dump($gareRepository->find(100));
+        $interetRepository = $this->getDoctrine()->getRepository(Interet::class);
+        dump($ecoleRepository->find(100));
         dump($gareRepository->genererGeoJSON(45.5391, 6, 10));
 
         return $this->render('default/backoffice.html.twig', [
