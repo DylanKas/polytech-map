@@ -36,16 +36,10 @@ public function ajaxAction(Request $request) {
       //dump($gareRepository->find(100));
       //dump($gareRepository->genererGeoJSON(45.5391, 6, 10));
 
-   if ($request->isXmlHttpRequest() || $request->query->get('showJson') == 1) {
+ //  if ($request->isXmlHttpRequest() || $request->query->get('showJson') == 1) {
+   if ($request->isXmlHttpRequest()) {
       $jsonData = array();
       $idx = 0;
-      foreach($students as $student) {
-         $temp = array(
-            'name' => $student->getName(),
-            'address' => $student->getAddress(),
-         );
-         $jsonData[$idx++] = $temp;
-      }
       return new JsonResponse($gareRepository->genererGeoJSON(45.5391, 6, 10));
    } else {
       return $this->render('default/index.html.twig');
