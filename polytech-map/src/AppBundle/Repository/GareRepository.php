@@ -11,8 +11,7 @@ namespace AppBundle\Repository;
 class GareRepository extends \Doctrine\ORM\EntityRepository
 {
         public function genererGeoJSON($latitude, $longitude, $rayon){
-                $json = "
-                    {
+                $json = "{
                     \"type\": \"FeatureCollection\",
                     \"features\": [";
                     $listePoints = $this->executerSQL("CALL get_points_gares($latitude, $longitude, $rayon);");
