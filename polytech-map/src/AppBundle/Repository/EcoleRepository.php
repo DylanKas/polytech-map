@@ -21,7 +21,7 @@ class EcoleRepository extends \Doctrine\ORM\EntityRepository
                            \"type\": \"Feature\",
                            \"geometry\": {
                              \"type\": \"Point\",
-                             \"coordinates\": [". strval($point["latitude"]) . ", " . strval($point["longitude"]) ."]
+                             \"coordinates\": [". strval($point["longitude"]) . ", " . strval($point["latitude"]) ."]
                            },
                            \"properties\": {
                              \"name\": \"". $point["patronyme"] ."\"
