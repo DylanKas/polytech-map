@@ -22,9 +22,11 @@ class BackofficeController extends Controller
         $entityManager = $this->getDoctrine()->getManager();
 
         $gareRepository = $this->getDoctrine()->getRepository(Gare::class);
+
         $pollutionRepository = $this->getDoctrine()->getRepository(Pollution::class);
         $ecoleRepository = $this->getDoctrine()->getRepository(Ecole::class);
-        dump($pollutionRepository->find(100));
+        dump($gareRepository->find(100));
+        dump($gareRepository->genererGeoJSON(45.5391, 6, 10));
 
         return $this->render('default/backoffice.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,

@@ -1,0 +1,38 @@
+
+             {
+               "type": "FeatureCollection",
+               "features": [
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.5028, 6.04316]
+                           },
+                           "properties": {
+                             "name": "Gare de Montmélian"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.5033, 6.04366]
+                           },
+                           "properties": {
+                             "name": "Gare de Montmélian"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.5709, 5.92056]
+                           },
+                           "properties": {
+                             "name": "Gare de Chambéry-Challes-les-Eaux"
+                             }
+                         },
+]
+}
