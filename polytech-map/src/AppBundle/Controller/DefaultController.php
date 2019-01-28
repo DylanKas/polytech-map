@@ -38,7 +38,7 @@ class DefaultController extends Controller
 
 
           $data = json_decode($request->getContent(), true);
-          dump($data['criterions']);
+
            if ($request->isXmlHttpRequest()) {
               $jsonResult = array();
               $idx = 0;
