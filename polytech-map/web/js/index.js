@@ -16,8 +16,8 @@ modules.form = (() => {
 		var c = document.createElement("a");
 		c.className = "border job-item d-block d-md-flex align-items-center border-bottom freelance";
 		c.setAttribute("id", "criterion-el-" + name.split(' ').join('-'))
-		//c.setAttribute("draggable", "true");
-		//c.setAttribute("ondragstart", "drag(event)");
+		c.setAttribute("draggable", "true");
+		c.setAttribute("ondragstart", "drag(event)");
 		//c.setAttribute("onmousedown", "select(event)");
 		//c.setAttribute("onmousemove", "move(event)");
 		var imgwrap = document.createElement("div");
@@ -50,26 +50,34 @@ modules.map = (() => {
 	let init = () => {
 
 		// initialize the map
-		var map = L.map('map-preview').setView([3.087025, 45.777222], 10);
+		var map = L.map('map-preview').setView([46.8000, 2.3522], 5);
 
 		  // load a tile layer
-		  L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
+		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}',
 		    {
 		      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
-		      maxZoom: 17,
-		      minZoom: 9
+		      maxZoom:109,
+		      minZoom: 5,
+    		  id: 'mapbox.streets',
+		      token: "pk.eyJ1IjoiZmx5bm5zcCIsImEiOiJjamZ1eDMzeWcwdWNsMzRxcW13emE0eDV4In0.ISjzHgiemEAyrgxIlqFRfw"
 		    }).addTo(map);
 
 		  // initialize the map
-		  var map2 = L.map('map-result').setView([3.087025, 45.777222], 10);
+		  var map2 = L.map('map-result').setView([46.8000, 2.3522], 5);
 
 		  // load a tile layer
-		  L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
+		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}',
 		    {
 		      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
-		      maxZoom: 17,
-		      minZoom: 9
+		      maxZoom: 10,
+		      minZoom: 5,
+    		  id: 'mapbox.streets',
+		      token: "pk.eyJ1IjoiZmx5bm5zcCIsImEiOiJjamZ1eDMzeWcwdWNsMzRxcW13emE0eDV4In0.ISjzHgiemEAyrgxIlqFRfw"
 		    }).addTo(map2);
+
+		    //'https://tiles.mapc.org/basemap/{z}/{x}/{y}.png'
+		    //maxZoom: 17
+		    //minZoom: 9
 	}
 
 	
@@ -86,7 +94,7 @@ modules.app = (() => {
 		modules.map.init();
 		modules.form.newCriterion("Gares ferroviaires", "images/icons/pollution.png");
 		modules.form.newCriterion("Autre critère", "images/icons/pollution.png");
-		dragula([document.getElementById("list-criterions"), document.getElementById("available-cr")]);
+		//dragula([document.getElementById("list-criterions"), document.getElementById("available-cr")]);
 	}
 
 	return {
