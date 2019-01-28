@@ -41,6 +41,7 @@ class DefaultController extends Controller
 
            if ($request->isXmlHttpRequest()) {
               $jsonResult = array();
+
               $idx = 0;
               foreach($data['criterions'] as $critere){
                   if($critere=='gare'){
@@ -85,7 +86,8 @@ class DefaultController extends Controller
                   else if($critere=='fuel'){
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'fuel');
                   }
-                  $jsonResult[$critere]=$result;
+
+                  $jsonResult[$critere]=json_decode($result);
 
               }
 

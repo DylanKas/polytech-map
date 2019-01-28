@@ -12,8 +12,7 @@ class InteretRepository extends \Doctrine\ORM\EntityRepository
 {
 
     public function genererGeoJSON($latitude, $longitude, $rayon,$interet){
-            $json = "
-                {
+            $json = "{
                 \"type\": \"FeatureCollection\",
                 \"features\": [";
                 $listePoints = $this->executerSQL("CALL get_points_interets($latitude, $longitude, $rayon,$interet);");
