@@ -96,28 +96,36 @@ modules.map = (() => {
 		map.setView(latlng, 12);
 	}
 
-	let compute = (latlng, geojson) => {
+	let compute = (latlng, data) => {
 
 		map2.setView(latlng, 13);
-		console.log(geojson);
 		//var layer = L.geoJSON().addTo(map2);
 		//layer.addData(geojson);
-		var objgjson = L.geoJSON(geojson, {
-            pointToLayer: function(feature, coords) {
-                var smallIcon = new L.Icon({
-				     iconSize: [27, 27],
-				     iconAnchor: [13, 27],
-				     popupAnchor:  [1, -24],
-				     iconUrl: 'images/map/station.png'
-				 });
-                return L.marker(coords, {icon: smallIcon});
-            }/*,
-           onEachFeature: function (feature, layer) {
-                   layer.bindPopup(feature.properties.ATT1 + '<br />'
-                                                 + feature.properties.ATT2);
-           }*/
-         });
-		objgjson.addTo(map2);
+		data = JSON.parse(data);
+
+      	Object.keys(data).forEach(key => {
+      		var geojson = L.geoJSON(data[key], idToStyle(key));
+			geojson.addTo(map2);
+      	});
+	}
+
+	let idToStyle = (id) => {
+
+		switch (id) {
+		case "gare":
+			return {
+	            pointToLayer: function(feature, coords) {
+	                var smallIcon = new L.Icon({
+					     iconSize: [27, 27],
+					     iconAnchor: [13, 27],
+					     popupAnchor:  [1, -24],
+					     iconUrl: 'images/map/station.png'
+					 });
+	                return L.marker(coords, {icon: smallIcon});
+	            }
+	        };
+        default: return {}
+		}
 	}
 
 	

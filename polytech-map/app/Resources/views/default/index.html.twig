@@ -318,7 +318,7 @@
     event.preventDefault();
     var success = (data) => {
       document.getElementById("step3").scrollIntoView({ block: 'start',  behavior: 'smooth' });
-      modules.map.compute([latlng.lat, latlng.lng], JSON.parse(data));
+      modules.map.compute([latlng.lat, latlng.lng], data);
     }
 
     $.ajax({
