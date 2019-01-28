@@ -5,7 +5,10 @@ namespace AppBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
-
+use AppBundle\Entity\User;
+use AppBundle\Entity\Gare;
+use AppBundle\Entity\Pollution;
+use AppBundle\Entity\Ecole;
 class DefaultController extends Controller
 {
     /**
@@ -18,4 +21,34 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
+    /**
+   * @Route("/ajax", name="homepage_ajax")
+*/
+public function ajaxAction(Request $request) {
+   $students = $this->getDoctrine()
+      ->getRepository('AppBundle:Gare')
+      ->findAll();
+
+      $gareRepository = $this->getDoctrine()->getRepository(Gare::class);
+
+      $pollutionRepository = $this->getDoctrine()->getRepository(Pollution::class);
+      $ecoleRepository = $this->getDoctrine()->getRepository(Ecole::class);
+      //dump($gareRepository->find(100));
+      //dump($gareRepository->genererGeoJSON(45.5391, 6, 10));
+
+   if ($request->isXmlHttpRequest() || $request->query->get('showJson') == 1) {
+      $jsonData = array();
+      $idx = 0;
+      foreach($students as $student) {
+         $temp = array(
+            'name' => $student->getName(),
+            'address' => $student->getAddress(),
+         );
+         $jsonData[$idx++] = $temp;
+      }
+      return new JsonResponse($gareRepository->genererGeoJSON(45.5391, 6, 10));
+   } else {
+      return $this->render('default/index.html.twig');
+   }
+}
 }
