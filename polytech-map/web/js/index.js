@@ -10,12 +10,14 @@ modules.form = (() => {
 	let avBox = document.getElementById("available-cr");
 
 	let criterions = [];
+	let applied = [];
 
 	let newCriterion = (name, imgsrc) => {
 
 		var c = document.createElement("a");
 		c.className = "border job-item d-block d-md-flex align-items-center border-bottom freelance";
-		c.setAttribute("id", "criterion-el-" + name.split(' ').join('-'))
+		c.setAttribute("id", "criterion-el-" + name.split(' ').join('-'));
+		c.setAttribute("criterion-name", name);
 		c.setAttribute("draggable", "true");
 		c.setAttribute("ondragstart", "drag(event)");
 		//c.setAttribute("onmousedown", "select(event)");
@@ -40,8 +42,15 @@ modules.form = (() => {
 		criterions.push(c);
 	}
 
+	let apply = (name) => {
+
+		applied.push(name);
+	}
+
 	return {
-		newCriterion
+		newCriterion,
+		apply,
+		applied: () => applied.slice()
 	}
 })();
 
@@ -57,7 +66,7 @@ modules.map = (() => {
 		  // load a tile layer
 		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}',
 		    {
-		      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
+		      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 		      maxZoom:109,
 		      minZoom: 5,
     		  id: 'mapbox.streets',
@@ -70,7 +79,7 @@ modules.map = (() => {
 		  // load a tile layer
 		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}',
 		    {
-		      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
+		      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 		      maxZoom: 10,
 		      minZoom: 5,
     		  id: 'mapbox.streets',
