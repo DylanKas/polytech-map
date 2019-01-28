@@ -91,16 +91,23 @@ modules.map = (() => {
 		    //minZoom: 9
 	}
 
-	let focus = (latlng) => {console.log(latlng);
+	let focus = (latlng) => {
 
 		map.setView(latlng, 8);
+	}
+
+	let compute = (latlng, geojson) => {
+
+		map.setView(latlng, 8);
+		L.geoJSON(geojson).addTo(map2);
 	}
 
 	
 
 	return {
 		init,
-		focus
+		focus,
+		compute
 	}
 })();
 
