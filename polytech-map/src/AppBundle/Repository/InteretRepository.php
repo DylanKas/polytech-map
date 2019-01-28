@@ -16,7 +16,7 @@ class InteretRepository extends \Doctrine\ORM\EntityRepository
                 {
                 \"type\": \"FeatureCollection\",
                 \"features\": [";
-                $listePoints = $this->executerSQL("CALL get_points_gares($latitude, $longitude, $rayon,$interet);");
+                $listePoints = $this->executerSQL("CALL get_points_interets($latitude, $longitude, $rayon,$interet);");
                 foreach ($listePoints as $point) {
                 $json .= "
                          {
