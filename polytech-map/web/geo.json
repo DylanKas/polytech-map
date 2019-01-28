@@ -1,390 +1,753 @@
 
-                    {
-                    "type": "FeatureCollection",
-                    "features": [
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.81351, 45.7173]
-                               },
-                               "properties": {
-                                 "name": "Gare de Oullins"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.74691, 45.7727]
-                               },
-                               "properties": {
-                                 "name": "Gare de La Ferrière"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.75855, 45.7617]
-                               },
-                               "properties": {
-                                 "name": "Gare de Tassin"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.80446, 45.7659]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-Gorge-de-Loup"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.86211, 45.7911]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-St-Clair"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.82465, 45.7068]
-                               },
-                               "properties": {
-                                 "name": "Gare de Pierre-Bénite"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.76451, 45.6985]
-                               },
-                               "properties": {
-                                 "name": "Gare de Chaponost"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.77153, 45.7517]
-                               },
-                               "properties": {
-                                 "name": "Gare de Alai"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.8419, 45.745]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-Jean-Macé"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.75401, 45.7769]
-                               },
-                               "properties": {
-                                 "name": "Gare de Les Flachères"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.86133, 45.7908]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-St-Clair"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.88798, 45.7052]
-                               },
-                               "properties": {
-                                 "name": "Gare de Vénissieux-Voyageurs"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.74826, 45.7689]
-                               },
-                               "properties": {
-                                 "name": "Gare de Le Méridien"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.82287, 45.7484]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-Perrache-Voyageurs"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.8602, 45.7605]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-Part-Dieu"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.76002, 45.7959]
-                               },
-                               "properties": {
-                                 "name": "Gare de Dardilly-les-Mouilles"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.87537, 45.8198]
-                               },
-                               "properties": {
-                                 "name": "Gare de Sathonay-Rillieux"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.82228, 45.7464]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-Perrache-Marchandises"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.84806, 45.7281]
-                               },
-                               "properties": {
-                                 "name": "Gare de Port-Édouard-Herriot"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.80341, 45.7802]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-Vaise"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.84509, 45.744]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-Guillotière"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.84643, 45.8289]
-                               },
-                               "properties": {
-                                 "name": "Gare de Collonges-Fontaines"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.7797, 45.766]
-                               },
-                               "properties": {
-                                 "name": "Gare de Écully-la-Demi-Lune"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.82558, 45.7663]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-St-Paul"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.82564, 45.7483]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-Perrache-Voyageurs"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.86261, 45.7906]
-                               },
-                               "properties": {
-                                 "name": "Gare de Lyon-St-Clair"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.77028, 45.7314]
-                               },
-                               "properties": {
-                                 "name": "Gare de Francheville"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.75897, 45.7617]
-                               },
-                               "properties": {
-                                 "name": "Gare de Tassin"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.76167, 45.8146]
-                               },
-                               "properties": {
-                                 "name": "Gare de Dardilly-le-Jubin"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.90989, 45.6963]
-                               },
-                               "properties": {
-                                 "name": "Gare de Vénissieux-Nord"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.87528, 45.8196]
-                               },
-                               "properties": {
-                                 "name": "Gare de Sathonay-Rillieux"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.85235, 45.7058]
-                               },
-                               "properties": {
-                                 "name": "Gare de St-Fons"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.87843, 45.8226]
-                               },
-                               "properties": {
-                                 "name": "Gare de Sathonay-Rillieux"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.85282, 45.6658]
-                               },
-                               "properties": {
-                                 "name": "Gare de Feyzin"
-                                 }
-                             },
-
-                             {
-                               "type": "Feature",
-                               "geometry": {
-                                 "type": "Point",
-                                 "coordinates": [4.89258, 45.8037]
-                               },
-                               "properties": {
-                                 "name": "Gare de Crépieux-la-Pape"
-                                 }
+                {
+                "type": "FeatureCollection",
+                "features": [
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.6798, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.6798-4.85938"
                              }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.6798, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.6798-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.6954, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.6954-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.6954, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.6954-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.6954, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.6954-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.6954, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.6954-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.6954, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.6954-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.711, 4.79688]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.711-4.79688"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.711, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.711-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.711, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.711-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.711, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.711-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.711, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.711-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.711, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.711-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7267, 4.79688]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7267-4.79688"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7267, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7267-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7267, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7267-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7267, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7267-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7267, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7267-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7267, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7267-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7267, 4.98438]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7267-4.98438"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7423, 4.79688]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7423-4.79688"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7423, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7423-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7423, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7423-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7423, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7423-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7423, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7423-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7423, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7423-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7423, 4.98438]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7423-4.98438"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7579, 4.79688]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7579-4.79688"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7579, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7579-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7579, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7579-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7579, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7579-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7579, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7579-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7579, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7579-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7579, 4.98438]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7579-4.98438"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7735, 4.79688]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7735-4.79688"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7735, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7735-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7735, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7735-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7735, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7735-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7735, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7735-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7735, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7735-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7735, 4.98438]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7735-4.98438"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7892, 4.79688]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7892-4.79688"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7892, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7892-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7892, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7892-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7892, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7892-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7892, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7892-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7892, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7892-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.7892, 4.98438]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.7892-4.98438"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8048, 4.79688]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8048-4.79688"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8048, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8048-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8048, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8048-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8048, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8048-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8048, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8048-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8048, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8048-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8048, 4.98438]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8048-4.98438"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8204, 4.79688]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8204-4.79688"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8204, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8204-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8204, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8204-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8204, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8204-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8204, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8204-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8204, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8204-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.836, 4.82813]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.836-4.82813"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.836, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.836-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.836, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.836-4.89063"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.836, 4.92188]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.836-4.92188"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.836, 4.95313]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.836-4.95313"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8517, 4.85938]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8517-4.85938"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [45.8517, 4.89063]
+                           },
+                           "properties": {
+                             "name": "Pollution 45.8517-4.89063"
+                             }
+                         }
 ]
 }
