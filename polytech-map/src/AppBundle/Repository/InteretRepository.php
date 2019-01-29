@@ -11,11 +11,14 @@ namespace AppBundle\Repository;
 class InteretRepository extends \Doctrine\ORM\EntityRepository
 {
 
-    public function genererGeoJSON($latitude, $longitude, $rayon,$interet){
+    public function genererGeoJSON($latitude, $longitude, $rayon,$interet,$returnSqlArray=false){
             $json = "{
                 \"type\": \"FeatureCollection\",
                 \"features\": [";
                 $listePoints = $this->executerSQL("CALL get_points_points_dinterets($latitude, $longitude, $rayon,\"$interet\");");
+                if($returnSqlArray){
+                    return $listePoints;
+                }
                 foreach ($listePoints as $point) {
                 $json .= "
                          {

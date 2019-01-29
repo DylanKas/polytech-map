@@ -45,43 +45,44 @@ class DefaultController extends Controller
               $idx = 0;
               foreach($data['criterions'] as $critere){
                   if($critere=='gare'){
-                      $result=$gareRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10);
+                      $result=$gareRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 15);
                   }
                   else if($critere=='ecole'){
-                      $result=$ecoleRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10);
+                      $result=$ecoleRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 6);
                   }
                   else if($critere=='pollution'){
-                      $result=$pollutionRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10);
+                     //$result=$pollutionRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,true);
+
                   }
                   else if($critere=='post_office'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'post_office');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 12,'post_office');
                   }
                   else if($critere=='bench'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'bench');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 3,'bench');
                   }
                   else if($critere=='parking'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'parking');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 5,'parking');
                   }
                   else if($critere=='cafe'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'cafe');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 8,'cafe');
                   }
                   else if($critere=='atm'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'atm');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 6,'atm');
                   }
                   else if($critere=='restaurant'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'restaur');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 8,'restaur');
                   }
                   else if($critere=='bank'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'bank');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 8,'bank');
                   }
                   else if($critere=='library'){
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'library');
                   }
                   else if($critere=='pharmacy'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'pharmac');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'pharmacy');
                   }
                   else if($critere=='toilets'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'toilets');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 6,'toilets');
                   }
                   else if($critere=='fuel'){
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'fuel');
