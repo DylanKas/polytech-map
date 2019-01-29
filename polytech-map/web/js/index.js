@@ -102,7 +102,7 @@ modules.map = (() => {
 
 	let focus = (latlng) => {
 
-		map.setView(latlng, 12);
+		map.setView(latlng, 13);
 	}
 
 	let compute = (latlng, data) => {
@@ -111,7 +111,7 @@ modules.map = (() => {
 		    map2.removeLayer(layer);
 		});*/
 
-		map2.setView(latlng, 13);
+		map2.setView(latlng, 14);
 
       	Object.keys(data).forEach(key => {
       		var geojson = L.geoJSON(data[key], idToStyle(key));
@@ -124,11 +124,15 @@ modules.map = (() => {
 		switch (id) {
 		case "gare":
 		case "pharmacy":
+		case "library":
 			return drawIcon(id, 27);
 		case "ecole":
+		case "bank":
+		case "restaurant":
 		case "cafe":
 		case "fuel":
 		case "parking":
+		case "atm":
 			return drawIcon(id, 18);
         default: return {}
 		}
@@ -165,10 +169,14 @@ modules.app = (() => {
 		modules.map.init();
 		modules.form.newCriterion("gare", "Gares ferroviaires", "images/icons/station.png");
 		modules.form.newCriterion("pharmacy", "Pharmacies", "images/icons/pharmacy.png");
+		modules.form.newCriterion("library", "Bibliothèques", "images/icons/library.png");
 		modules.form.newCriterion("ecole", "Ecoles", "images/icons/school.png");
+		modules.form.newCriterion("bank", "Banques", "images/icons/bank.png");
+		modules.form.newCriterion("restaurant", "Restaurants", "images/icons/restaurant.png");
 		modules.form.newCriterion("cafe", "Cafés", "images/icons/cafe.png");
 		modules.form.newCriterion("fuel", "Stations d'essence", "images/icons/fuel.png");
 		modules.form.newCriterion("parking", "Parkings", "images/icons/parking.png");
+		modules.form.newCriterion("atm", "Distributeurs automatiques", "images/icons/atm.png");
 		//modules.form.newCriterion("pollution", "Pollution", "images/icons/pollution.png");
 	}
 
