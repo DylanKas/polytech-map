@@ -261,19 +261,30 @@ a:hover {
 }
 
 /* Navbar */
+#main-icon {
+  height: 1em;
+  margin-right: 1em;
+}
+
 .site-navbar-wrap {
-  background: #fff !important;
+  background: rgba(255, 255, 255, 0) !important;
   position: fixed;
-  z-index: 99;
+  z-index: 10000;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   margin-bottom: 113px;
   left: 0;
   transition: 0.3s all ease;
 }
+.site-navbar-wrap h2 a {
+  color: white !important;
+}
 .site-navbar-wrap.scrolled {
-  padding: 0px 0;
+  background: white !important;
   box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.1);
+}
+.site-navbar-wrap.scrolled h2 a {
+  color: black !important;
 }
 
 .site-navbar-top {
@@ -296,7 +307,9 @@ a:hover {
   margin-bottom: 0px;
   width: 100%;
   border-bottom: none;
-  background: #fff !important;
+}
+.site-navbar.bg-light, .site-navbar .bg-light {
+  background: none !important;
 }
 .site-navbar .site-logo {
   font-weight: 200;
