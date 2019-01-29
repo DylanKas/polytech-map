@@ -88,7 +88,7 @@ class DefaultController extends Controller
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'fuel');
                   }
 
-                  $jsonResult[$critere]=json_decode($result);
+                  $jsonResult['map'][$critere]=json_decode($result);
 
               }
 
