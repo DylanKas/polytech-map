@@ -686,6 +686,9 @@ a:hover {
   bottom: -20px;
   left: 50%;
 }
+.section-heading h2.red-heading:before, .section-heading h2.red-heading:after {
+  background: #cc2121 !important;
+}
 .section-heading.text-left h2:before, .section-heading.text-left h2:after {
   left: 0;
   transform: translateX(0%);
