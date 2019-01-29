@@ -123,67 +123,30 @@ modules.map = (() => {
 
 		switch (id) {
 		case "gare":
-			return {
-	            pointToLayer: function(feature, coords) {
-	                var smallIcon = new L.Icon({
-					     iconSize: [27, 27],
-					     iconAnchor: [13, 27],
-					     popupAnchor:  [1, -24],
-					     iconUrl: 'images/map/station.png'
-					 });
-	                return L.marker(coords, {icon: smallIcon});
-	            }
-	        };
 		case "pharmacy":
-			return {
-	            pointToLayer: function(feature, coords) {
-	                var smallIcon = new L.Icon({
-					     iconSize: [27, 27],
-					     iconAnchor: [13, 27],
-					     popupAnchor:  [1, -24],
-					     iconUrl: 'images/map/pharmacy.png'
-					 });
-	                return L.marker(coords, {icon: smallIcon});
-	            }
-	        };
+			return drawIcon(id, 27);
 		case "ecole":
-			return {
-	            pointToLayer: function(feature, coords) {
-	                var smallIcon = new L.Icon({
-					     iconSize: [18, 18],
-					     iconAnchor: [9, 18],
-					     popupAnchor:  [1, -15],
-					     iconUrl: 'images/map/school.png'
-					 });
-	                return L.marker(coords, {icon: smallIcon});
-	            }
-	        };
 		case "cafe":
-			return {
-	            pointToLayer: function(feature, coords) {
-	                var smallIcon = new L.Icon({
-					     iconSize: [18, 18],
-					     iconAnchor: [9, 18],
-					     popupAnchor:  [1, -15],
-					     iconUrl: 'images/map/cafe.png'
-					 });
-	                return L.marker(coords, {icon: smallIcon});
-	            }
-	        };
+		case "fuel":
 		case "parking":
-			return {
-	            pointToLayer: function(feature, coords) {
-	                var smallIcon = new L.Icon({
-					     iconSize: [18, 18],
-					     iconAnchor: [9, 18],
-					     popupAnchor:  [1, -15],
-					     iconUrl: 'images/map/parking.png'
-					 });
-	                return L.marker(coords, {icon: smallIcon});
-	            }
-	        };
+			return drawIcon(id, 18);
         default: return {}
 		}
+	}
+
+	let drawIcon = (name, size) => {
+
+		return {
+	            pointToLayer: function(feature, coords) {
+	                var smallIcon = new L.Icon({
+					     iconSize: [size, size],
+					     iconAnchor: [Math.floor(size/2), size],
+					     popupAnchor:  [1, Math.floor(size*0.9)],
+					     iconUrl: 'images/map/' + name + '.png'
+					 });
+	                return L.marker(coords, {icon: smallIcon});
+	            }
+	        }
 	}
 
 	
@@ -204,6 +167,7 @@ modules.app = (() => {
 		modules.form.newCriterion("pharmacy", "Pharmacies", "images/icons/pharmacy.png");
 		modules.form.newCriterion("ecole", "Ecoles", "images/icons/school.png");
 		modules.form.newCriterion("cafe", "Cafés", "images/icons/cafe.png");
+		modules.form.newCriterion("fuel", "Stations d'essence", "images/icons/fuel.png");
 		modules.form.newCriterion("parking", "Parkings", "images/icons/parking.png");
 		//modules.form.newCriterion("pollution", "Pollution", "images/icons/pollution.png");
 	}

@@ -137,7 +137,7 @@
         </div>
         <div class="row">
           <form class="mx-auto" onSubmit="endStep2(event)" action="#">
-            <input type="submit" class="btn btn-search btn-primary btn-block" value="Terminer">
+            <input type="submit" class="btn btn-search btn-primary btn-block btn-finish" value="Terminer">
           </form>
         </div>
 
@@ -331,7 +331,7 @@
 
     var success = (data) => {
       document.getElementById("step3").scrollIntoView({ block: 'start',  behavior: 'smooth' });
-      modules.map.compute([latlng.lat, latlng.lng], data);
+      modules.map.compute([latlng.lat, latlng.lng], data.map);
     }
 
     $.ajax({
