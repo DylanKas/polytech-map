@@ -107,9 +107,9 @@ modules.map = (() => {
 
 	let compute = (latlng, data) => {
 
-		map2.eachLayer(function (layer) {
+		/*map2.eachLayer(function (layer) {
 		    map2.removeLayer(layer);
-		});
+		});*/
 
 		map2.setView(latlng, 13);
 
