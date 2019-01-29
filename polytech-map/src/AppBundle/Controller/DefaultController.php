@@ -58,28 +58,28 @@ class DefaultController extends Controller
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 12,'post_office');
                   }
                   else if($critere=='bench'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 3,'bench');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 1,'bench');
                   }
                   else if($critere=='parking'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 5,'parking');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 4,'parking');
                   }
                   else if($critere=='cafe'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 8,'cafe');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 3,'cafe');
                   }
                   else if($critere=='atm'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 6,'atm');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 3,'atm');
                   }
                   else if($critere=='restaurant'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 8,'restaur');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 5,'restaur');
                   }
                   else if($critere=='bank'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 8,'bank');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 5,'bank');
                   }
                   else if($critere=='library'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'library');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 8,'library');
                   }
                   else if($critere=='pharmacy'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'pharmacy');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 8,'pharmacy');
                   }
                   else if($critere=='toilets'){
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 6,'toilets');
@@ -88,10 +88,21 @@ class DefaultController extends Controller
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'fuel');
                   }
 
+
                   $jsonResult['map'][$critere]=json_decode($result);
-
+                  $features=json_decode($result);
+                  $jsonResult['result']['criteres'][$critere]['score']=count($features->features);
+                  $jsonResult['result']['criteres'][$critere]['description']="Test";
               }
+              $coef=15;
+              $scoreTotal=0;
+              foreach($data['criterions'] as $critere){
+                   $jsonResult['result']['criteres'][$critere]['score']=$jsonResult['result']['criteres'][$critere]['score']*$coef;
 
+                   $scoreTotal+=$jsonResult['result']['criteres'][$critere]['score'];
+                   $coef--;
+              }
+              $jsonResult['result']['scoretotal']=$scoreTotal;
               return new JsonResponse($jsonResult);
            } else {
               return $this->render('default/index.html.twig');
