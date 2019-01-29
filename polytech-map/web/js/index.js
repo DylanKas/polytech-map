@@ -47,9 +47,18 @@ modules.form = (() => {
 		applied.push(name);
 	}
 
+	let unapply = (name) => {
+
+		var index = applied.indexOf(name);
+		if (index !== -1) {
+		    applied.splice(index, 1);
+		}
+	}
+
 	return {
 		newCriterion,
 		apply,
+		unapply,
 		applied: () => applied.slice()
 	}
 })();
@@ -98,11 +107,13 @@ modules.map = (() => {
 
 	let compute = (latlng, data) => {
 
-		map2.setView(latlng, 13);
-		//var layer = L.geoJSON().addTo(map2);
-		//layer.addData(geojson);
+		map2.eachLayer(function (layer) {
+		    map2.removeLayer(layer);
+		});
 
-      	Object.keys(data).forEach(key => {console.log(key);
+		map2.setView(latlng, 13);
+
+      	Object.keys(data).forEach(key => {
       		var geojson = L.geoJSON(data[key], idToStyle(key));
 			geojson.addTo(map2);
       	});
