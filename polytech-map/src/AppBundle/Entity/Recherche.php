@@ -63,6 +63,10 @@ class Recherche
      */
     private $longitude;
 
+    public function __construct()
+    {
+        $this->time_stamp = new \DateTime();
+    }
 
     /**
      * Get id
@@ -73,5 +77,112 @@ class Recherche
     {
         return $this->id;
     }
+
+    /**
+     * Get latitude
+     *
+     * @return string
+     */
+    public function getLatitude()
+    {
+        return $this->latitude;
+    }
+
+    /**
+     * Get longitude
+     *
+     * @return string
+     */
+    public function getLongitude()
+    {
+        return $this->longitude;
+    }
+    /**
+     * Get score
+     *
+     * @return string
+     */
+    public function getScore()
+    {
+        return $this->score;
+    }
+    /**
+     * Get resultats
+     *
+     * @return string
+     */
+    public function getResultats()
+    {
+        return $this->resultats;
+    }
+
+    /**
+     * Get criteres
+     *
+     * @return string
+     */
+    public function getCriteres()
+    {
+        return $this->criteres;
+    }
+
+    /**
+     * Set latitude
+     *
+     * @param float $latitude
+     * @return Recherche
+     */
+    public function setLatitude($latitude)
+    {
+        $this->latitude=$latitude;
+        return $this;
+    }
+
+    /**
+     * Set longitude
+     *
+     * @param float $longitude
+     * @return Recherche
+     */
+    public function setLongitude($longitude)
+    {
+        $this->longitude=$longitude;
+        return $this;
+    }
+    /**
+     * Set score
+     *
+     * @param string $score
+     * @return Recherche
+     */
+    public function setScore($score)
+    {
+        $this->score=$score;
+        return $this;
+    }
+    /**
+     * Set resultats
+     *
+     * @param string $resultats
+     * @return Recherche
+     */
+    public function setResultats($resultats)
+    {
+        $this->resultats=$resultats;
+        return $this;
+    }
+
+    /**
+     * Set criteres
+     *
+     * @param string $criteres
+     * @return Recherche
+     */
+    public function setCriteres($criteres)
+    {
+        $this->criteres=$criteres;
+        return $this;
+    }
+
 
 }

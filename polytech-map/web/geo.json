@@ -16,10 +16,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86654, 45.7525]
+                             "coordinates": [4.80806, 45.7555]
                            },
                            "properties": {
-                             "name": "NIKOLA TESLA"
+                             "name": "LES MONTESSORIENS DE L'OUEST"
                              }
                          },
 
@@ -31,17 +31,6 @@
                            },
                            "properties": {
                              "name": "SAINT JUST"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86207, 45.7361]
-                           },
-                           "properties": {
-                             "name": "AUGUSTE ET LOUIS LUMIERE"
                              }
                          },
 
@@ -71,10 +60,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87011, 45.7467]
+                             "coordinates": [4.80543, 45.7535]
                            },
                            "properties": {
-                             "name": "CLG PROFESSEUR DARGENT"
+                             "name": "JEAN CHARCOT"
                              }
                          },
 
@@ -82,10 +71,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87302, 45.7415]
+                             "coordinates": [4.8046, 45.7738]
                            },
                            "properties": {
-                             "name": "PIERRE TERMIER"
+                             "name": "JEAN DE VERRAZANE"
                              }
                          },
 
@@ -104,17 +93,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86766, 45.7381]
-                           },
-                           "properties": {
-                             "name": "O R T"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.837, 45.7653]
                            },
                            "properties": {
@@ -126,65 +104,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87208, 45.751]
-                           },
-                           "properties": {
-                             "name": "CHARLES DE FOUCAULD"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.88302, 45.7573]
-                           },
-                           "properties": {
-                             "name": "CLG JEAN JAURES"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.8771, 45.7722]
-                           },
-                           "properties": {
-                             "name": "DES GRATTE-CIEL MORICE LEROUX"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.82649, 45.777]
                            },
                            "properties": {
                              "name": "LA SALLE LYON CROIX ROUSSE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87692, 45.764]
-                           },
-                           "properties": {
-                             "name": "JACQUES PREVERT"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86469, 45.7465]
-                           },
-                           "properties": {
-                             "name": "LES LETTRES DOREES"
                              }
                          },
 
@@ -225,10 +148,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87709, 45.7733]
+                             "coordinates": [4.8318, 45.7286]
                            },
                            "properties": {
-                             "name": "ROSA PARKS"
+                             "name": "NAZARETH"
                              }
                          },
 
@@ -247,10 +170,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87065, 45.7659]
+                             "coordinates": [4.82189, 45.7797]
                            },
                            "properties": {
-                             "name": "MAGENTA"
+                             "name": "ANTOINE DE SAINT-EXUPERY"
                              }
                          },
 
@@ -262,17 +185,6 @@
                            },
                            "properties": {
                              "name": "CAMILLE CLAUDEL"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86651, 45.7754]
-                           },
-                           "properties": {
-                             "name": "LAKANAL"
                              }
                          },
 
@@ -302,21 +214,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86872, 45.7683]
+                             "coordinates": [4.8139, 45.7507]
                            },
                            "properties": {
-                             "name": "JUIF DE LYON"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87051, 45.7737]
-                           },
-                           "properties": {
-                             "name": "MERE TERESA"
+                             "name": "ICOF"
                              }
                          },
 
@@ -357,6 +258,17 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
+                             "coordinates": [4.81541, 45.7408]
+                           },
+                           "properties": {
+                             "name": "SUPDEMOD"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
                              "coordinates": [4.82326, 45.7721]
                            },
                            "properties": {
@@ -383,6 +295,17 @@
                            },
                            "properties": {
                              "name": "BELMONT-CAPDEPON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81509, 45.7614]
+                           },
+                           "properties": {
+                             "name": "LA SARRA"
                              }
                          },
 
@@ -423,17 +346,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87084, 45.7558]
-                           },
-                           "properties": {
-                             "name": "MEYNIS"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.82375, 45.7478]
                            },
                            "properties": {
@@ -449,17 +361,6 @@
                            },
                            "properties": {
                              "name": "ROBERT DOISNEAU"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87528, 45.7659]
-                           },
-                           "properties": {
-                             "name": "EDOUARD HERRIOT"
                              }
                          },
 
@@ -489,10 +390,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87145, 45.7756]
+                             "coordinates": [4.82787, 45.7324]
                            },
                            "properties": {
-                             "name": "DESCARTES"
+                             "name": "DU RHONE"
                              }
                          },
 
@@ -504,28 +405,6 @@
                            },
                            "properties": {
                              "name": "FULCHIRON"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86518, 45.7584]
-                           },
-                           "properties": {
-                             "name": "ANTOINE CHARIAL"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87345, 45.7608]
-                           },
-                           "properties": {
-                             "name": "LOUIS JOUVET"
                              }
                          },
 
@@ -555,6 +434,17 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
+                             "coordinates": [4.79699, 45.7558]
+                           },
+                           "properties": {
+                             "name": "NOTRE-DAME DU POINT DU JOUR"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
                              "coordinates": [4.84619, 45.7737]
                            },
                            "properties": {
@@ -566,10 +456,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87697, 45.7647]
+                             "coordinates": [4.79837, 45.7463]
                            },
                            "properties": {
-                             "name": "SAINTE THERESE"
+                             "name": "HERBINIERE LEBERT"
                              }
                          },
 
@@ -599,43 +489,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87071, 45.7554]
-                           },
-                           "properties": {
-                             "name": "MEYNIS"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86733, 45.7721]
-                           },
-                           "properties": {
-                             "name": "FRANCOIS TRUFFAUT"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.85017, 45.7612]
                            },
                            "properties": {
                              "name": "ANDRE PHILIP"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87668, 45.752]
-                           },
-                           "properties": {
-                             "name": "CHARLES DE FOUCAULD"
                              }
                          },
 
@@ -654,10 +511,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86307, 45.7772]
+                             "coordinates": [4.7939, 45.7564]
                            },
                            "properties": {
-                             "name": "LOUIS ARMAND"
+                             "name": "JOLIOT CURIE"
                              }
                          },
 
@@ -665,10 +522,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87022, 45.7565]
+                             "coordinates": [4.81088, 45.7756]
                            },
                            "properties": {
-                             "name": "PAUL BERT"
+                             "name": "DES ENTREPOTS"
                              }
                          },
 
@@ -676,10 +533,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.88239, 45.7685]
+                             "coordinates": [4.8036, 45.7693]
                            },
                            "properties": {
-                             "name": "ANATOLE FRANCE"
+                             "name": "JEHANNE DE FRANCE"
                              }
                          },
 
@@ -713,6 +570,17 @@
                            },
                            "properties": {
                              "name": "LUCIE AUBRAC"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.79725, 45.7692]
+                           },
+                           "properties": {
+                             "name": "BIENHEUREUX FRANCOIS DE FATIMA"
                              }
                          },
 
@@ -797,17 +665,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86654, 45.7525]
-                           },
-                           "properties": {
-                             "name": "NIKOLA TESLA"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.82255, 45.7458]
                            },
                            "properties": {
@@ -823,17 +680,6 @@
                            },
                            "properties": {
                              "name": "GEORGES CLEMENCEAU"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86503, 45.7368]
-                           },
-                           "properties": {
-                             "name": "ALICE GUY"
                              }
                          },
 
@@ -863,10 +709,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.8704, 45.7578]
+                             "coordinates": [4.80543, 45.7535]
                            },
                            "properties": {
-                             "name": "LACASSAGNE"
+                             "name": "CLG JEAN CHARCOT"
                              }
                          },
 
@@ -874,10 +720,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86895, 45.7452]
+                             "coordinates": [4.83958, 45.7283]
                            },
                            "properties": {
-                             "name": "DU 1ER FILM"
+                             "name": "MOLIERE"
                              }
                          },
 
@@ -885,10 +731,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87285, 45.7611]
+                             "coordinates": [4.8401, 45.7297]
                            },
                            "properties": {
-                             "name": "CLG LOUIS JOUVET"
+                             "name": "GABRIEL ROSSET"
                              }
                          },
 
@@ -929,10 +775,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86289, 45.7769]
+                             "coordinates": [4.80799, 45.7712]
                            },
                            "properties": {
-                             "name": "LOUIS ARMAND"
+                             "name": "CHAPEAU ROUGE"
                              }
                          },
 
@@ -962,54 +808,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86669, 45.7653]
-                           },
-                           "properties": {
-                             "name": "NOTRE DAME DE BELLECOMBE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87826, 45.7524]
-                           },
-                           "properties": {
-                             "name": "CHARLES DE FOUCAULD"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.83684, 45.7364]
                            },
                            "properties": {
                              "name": "IPSO LYON"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87011, 45.7467]
-                           },
-                           "properties": {
-                             "name": "PROFESSEUR DARGENT"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.8704, 45.7578]
-                           },
-                           "properties": {
-                             "name": "LACASSAGNE"
                              }
                          },
 
@@ -1028,28 +830,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86779, 45.7401]
-                           },
-                           "properties": {
-                             "name": "LA MARTINIERE MONPLAISIR"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86373, 45.7532]
-                           },
-                           "properties": {
-                             "name": "GILBERT DRU"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.82026, 45.7446]
                            },
                            "properties": {
@@ -1061,10 +841,32 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87828, 45.7711]
+                             "coordinates": [4.79895, 45.7478]
                            },
                            "properties": {
-                             "name": "PIERRE BROSSOLETTE"
+                             "name": "PAUL FABRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.79806, 45.7486]
+                           },
+                           "properties": {
+                             "name": "GRANGE BRUYERE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.80594, 45.7565]
+                           },
+                           "properties": {
+                             "name": "LA FAVORITE SAINTE THERESE"
                              }
                          },
 
@@ -1076,6 +878,17 @@
                            },
                            "properties": {
                              "name": "FENELON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81221, 45.7322]
+                           },
+                           "properties": {
+                             "name": "ASSOMPTION BELLEVUE"
                              }
                          },
 
@@ -1116,32 +929,21 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86694, 45.7509]
-                           },
-                           "properties": {
-                             "name": "NOVE JOSSERAND"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.83957, 45.78]
-                           },
-                           "properties": {
-                             "name": "GEORGES LAPIERRE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.84643, 45.7704]
                            },
                            "properties": {
                              "name": "JEAN RACINE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.79464, 45.7564]
+                           },
+                           "properties": {
+                             "name": "IRENE JOLIOT CURIE"
                              }
                          },
 
@@ -1171,17 +973,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87268, 45.7479]
-                           },
-                           "properties": {
-                             "name": "REBATEL"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.85074, 45.7575]
                            },
                            "properties": {
@@ -1204,6 +995,28 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
+                             "coordinates": [4.80809, 45.7716]
+                           },
+                           "properties": {
+                             "name": "CHAPEAU ROUGE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83374, 45.7297]
+                           },
+                           "properties": {
+                             "name": "ARISTIDE BRIAND"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
                              "coordinates": [4.85235, 45.7699]
                            },
                            "properties": {
@@ -1215,10 +1028,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87414, 45.7699]
+                             "coordinates": [4.8036, 45.7693]
                            },
                            "properties": {
-                             "name": "EMILE ZOLA"
+                             "name": "LPO PR JEHANNE DE FRANCE"
                              }
                          },
 
@@ -1226,21 +1039,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87533, 45.7655]
+                             "coordinates": [4.81195, 45.7526]
                            },
                            "properties": {
-                             "name": "EDOUARD HERRIOT"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.88159, 45.7732]
-                           },
-                           "properties": {
-                             "name": "JEAN ZAY"
+                             "name": "SAINTE URSULE"
                              }
                          },
 
@@ -1259,10 +1061,21 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.85692, 45.7717]
+                             "coordinates": [4.80433, 45.7343]
                            },
                            "properties": {
-                             "name": "DU PARC"
+                             "name": "NOTRE DAME DE SAINTE FOY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82514, 45.7355]
+                           },
+                           "properties": {
+                             "name": "MARCEL PAGNOL"
                              }
                          },
 
@@ -1314,17 +1127,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86464, 45.7585]
-                           },
-                           "properties": {
-                             "name": "ANTOINE CHARIAL"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.83122, 45.7509]
                            },
                            "properties": {
@@ -1358,10 +1160,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.8671, 45.744]
+                             "coordinates": [4.80339, 45.7675]
                            },
                            "properties": {
-                             "name": "PAUL EMILE VICTOR"
+                             "name": "JEAN ZAY"
                              }
                          },
 
@@ -1413,10 +1215,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86572, 45.7577]
+                             "coordinates": [4.81366, 45.7572]
                            },
                            "properties": {
-                             "name": "NOUVELLE DE LA RIZE"
+                             "name": "SAINT JUST - SAINT IRENEE"
                              }
                          },
 
@@ -1446,17 +1248,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86575, 45.766]
-                           },
-                           "properties": {
-                             "name": "NOTRE DAME DE BELLECOMBE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.83891, 45.7517]
                            },
                            "properties": {
@@ -1479,32 +1270,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86872, 45.7683]
+                             "coordinates": [4.81258, 45.733]
                            },
                            "properties": {
-                             "name": "NA'HALAT MOSHEY"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.8356, 45.7836]
-                           },
-                           "properties": {
-                             "name": "ELIE VIGNAL"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.84014, 45.7846]
-                           },
-                           "properties": {
-                             "name": "BERTHIE ALBRECHT"
+                             "name": "ASSOMPTION BELLEVUE"
                              }
                          },
 
@@ -1534,6 +1303,17 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
+                             "coordinates": [4.80075, 45.7611]
+                           },
+                           "properties": {
+                             "name": "FRANCOIS TRUFFAUT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
                              "coordinates": [4.84735, 45.7588]
                            },
                            "properties": {
@@ -1545,10 +1325,43 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
+                             "coordinates": [4.80594, 45.7565]
+                           },
+                           "properties": {
+                             "name": "LA FAVORITE SAINTE THERESE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.80138, 45.7479]
+                           },
+                           "properties": {
+                             "name": "ROBERT SCHUMAN"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
                              "coordinates": [4.84344, 45.7663]
                            },
                            "properties": {
                              "name": "PIERRE CORNEILLE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.7977, 45.7673]
+                           },
+                           "properties": {
+                             "name": "ATELIER APPRENT  GORGE DE LOUP"
                              }
                          },
 
@@ -1600,17 +1413,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87046, 45.7507]
-                           },
-                           "properties": {
-                             "name": "MONTBRILLANT"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.8522, 45.7478]
                            },
                            "properties": {
@@ -1633,32 +1435,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87302, 45.7415]
-                           },
-                           "properties": {
-                             "name": "PIERRE TERMIER-SITE MONPLAISIR"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.85918, 45.7488]
                            },
                            "properties": {
                              "name": "CHEVREUL LESTONNAC"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86766, 45.7381]
-                           },
-                           "properties": {
-                             "name": "O R T"
                              }
                          },
 
@@ -1688,10 +1468,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86339, 45.7658]
+                             "coordinates": [4.81234, 45.776]
                            },
                            "properties": {
-                             "name": "ANTOINE REMOND"
+                             "name": "LES CHARTREUX-ST CHARLES"
                              }
                          },
 
@@ -1699,10 +1479,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87824, 45.7612]
+                             "coordinates": [4.82192, 45.7283]
                            },
                            "properties": {
-                             "name": "JEAN JAURES"
+                             "name": "CITE SCOLAIRE INTERNATIONALE"
                              }
                          },
 
@@ -1732,32 +1512,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87449, 45.7703]
+                             "coordinates": [4.8325, 45.7291]
                            },
                            "properties": {
-                             "name": "EMILE ZOLA"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.83683, 45.7839]
-                           },
-                           "properties": {
-                             "name": "BERTHIE ALBRECHT"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86749, 45.7598]
-                           },
-                           "properties": {
-                             "name": "POMPIDOU"
+                             "name": "ARISTIDE BRIAND"
                              }
                          },
 
@@ -1776,21 +1534,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87246, 45.7475]
+                             "coordinates": [4.81996, 45.7792]
                            },
                            "properties": {
-                             "name": "REBATEL HARMONIE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86871, 45.7684]
-                           },
-                           "properties": {
-                             "name": "JUIF DE LYON"
+                             "name": "LA FONTAINE APPLICATION"
                              }
                          },
 
@@ -1809,10 +1556,32 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
+                             "coordinates": [4.80304, 45.7339]
+                           },
+                           "properties": {
+                             "name": "DU CENTRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
                              "coordinates": [4.83654, 45.7471]
                            },
                            "properties": {
                              "name": "BERTHELOT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81981, 45.778]
+                           },
+                           "properties": {
+                             "name": "JEAN DE LA FONTAINE"
                              }
                          },
 
@@ -1853,17 +1622,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87724, 45.7457]
-                           },
-                           "properties": {
-                             "name": "SOCIETE ENSEIG. PROF. DU RHONE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.83121, 45.7522]
                            },
                            "properties": {
@@ -1879,6 +1637,28 @@
                            },
                            "properties": {
                              "name": "CLG GEORGES CLEMENCEAU"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82192, 45.7283]
+                           },
+                           "properties": {
+                             "name": "CITE SCOLAIRE INTERNATIONALE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82192, 45.7283]
+                           },
+                           "properties": {
+                             "name": "CITE SCOLAIRE INTERNATIONALE"
                              }
                          },
 
@@ -1912,6 +1692,17 @@
                            },
                            "properties": {
                              "name": "CONDE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81293, 45.7679]
+                           },
+                           "properties": {
+                             "name": "CHEVALIER BAYARD"
                              }
                          },
 
@@ -1985,39 +1776,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.83915, 45.7812]
-                           },
-                           "properties": {
-                             "name": "GEORGES LAPIERRE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86688, 45.7511]
-                           },
-                           "properties": {
-                             "name": "NOVE JOSSERAND"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86579, 45.7393]
-                           },
-                           "properties": {
-                             "name": "COMBE BLANCHE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.83316, 45.7654]
                            },
                            "properties": {
@@ -2029,10 +1787,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.8728, 45.7415]
+                             "coordinates": [4.80529, 45.7561]
                            },
                            "properties": {
-                             "name": "PIERRE TERMIER"
+                             "name": "LA FAVORITE"
                              }
                          },
 
@@ -2095,6 +1853,17 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
+                             "coordinates": [4.82514, 45.7355]
+                           },
+                           "properties": {
+                             "name": "MARCEL PAGNOL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
                              "coordinates": [4.83975, 45.7529]
                            },
                            "properties": {
@@ -2110,6 +1879,17 @@
                            },
                            "properties": {
                              "name": "LES GIRONDINS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81192, 45.7761]
+                           },
+                           "properties": {
+                             "name": "MONTESSORI'S GONES"
                              }
                          },
 
@@ -2150,17 +1930,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.88217, 45.7636]
-                           },
-                           "properties": {
-                             "name": "LEON JOUHAUX"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.83507, 45.7794]
                            },
                            "properties": {
@@ -2183,32 +1952,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.88187, 45.7729]
-                           },
-                           "properties": {
-                             "name": "JEAN ZAY"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.85178, 45.7669]
                            },
                            "properties": {
                              "name": "MONTESSORI DE LYON"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.8771, 45.7499]
-                           },
-                           "properties": {
-                             "name": "JULES VERNE"
                              }
                          },
 
@@ -2238,17 +1985,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86261, 45.7732]
-                           },
-                           "properties": {
-                             "name": "NIGRITELLE NOIRE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.84963, 45.7662]
                            },
                            "properties": {
@@ -2271,10 +2007,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.85238, 45.7546]
+                             "coordinates": [4.80117, 45.7674]
                            },
                            "properties": {
-                             "name": "MARKARIAN PAPAZIAN"
+                             "name": "JEAN ZAY"
                              }
                          },
 
@@ -2282,10 +2018,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87013, 45.7738]
+                             "coordinates": [4.85238, 45.7546]
                            },
                            "properties": {
-                             "name": "CLG PR MERE TERESA"
+                             "name": "MARKARIAN PAPAZIAN"
                              }
                          },
 
@@ -2326,10 +2062,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86853, 45.7438]
+                             "coordinates": [4.82971, 45.7346]
                            },
                            "properties": {
-                             "name": "SAINT MAURICE"
+                             "name": "CLAUDIUS BERTHELIER"
                              }
                          },
 
@@ -2341,28 +2077,6 @@
                            },
                            "properties": {
                              "name": "ALBERT CAMUS"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87748, 45.7549]
-                           },
-                           "properties": {
-                             "name": "GRANDIR ET RIRE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86729, 45.7786]
-                           },
-                           "properties": {
-                             "name": "HORIZONS"
                              }
                          },
 
@@ -2392,10 +2106,32 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
+                             "coordinates": [4.83573, 45.7323]
+                           },
+                           "properties": {
+                             "name": "EDEIP LYON (ENFANTS PRECOCES)"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
                              "coordinates": [4.85501, 45.7472]
                            },
                            "properties": {
                              "name": "JULIE-VICTOIRE DAUBIE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83092, 45.7352]
+                           },
+                           "properties": {
+                             "name": "CLAUDIUS BERTHELIER"
                              }
                          },
 
@@ -2414,39 +2150,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.88144, 45.7707]
-                           },
-                           "properties": {
-                             "name": "MONTESSORI"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86285, 45.7734]
-                           },
-                           "properties": {
-                             "name": "NIGRITELLE NOIRE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87384, 45.7664]
-                           },
-                           "properties": {
-                             "name": "EDEN SCHOOL"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.82601, 45.7759]
                            },
                            "properties": {
@@ -2458,10 +2161,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.8771, 45.7499]
+                             "coordinates": [4.81095, 45.7573]
                            },
                            "properties": {
-                             "name": "JULES VERNE"
+                             "name": "FERDINAND BUISSON"
                              }
                          },
 
@@ -2473,50 +2176,6 @@
                            },
                            "properties": {
                              "name": "FRANCOIS AUGUSTE RAVIER"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86341, 45.7657]
-                           },
-                           "properties": {
-                             "name": "ANTOINE REMOND"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86695, 45.7755]
-                           },
-                           "properties": {
-                             "name": "LAKANAL"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.88224, 45.7682]
-                           },
-                           "properties": {
-                             "name": "ANATOLE FRANCE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87898, 45.7609]
-                           },
-                           "properties": {
-                             "name": "JEAN JAURES"
                              }
                          },
 
@@ -2539,17 +2198,6 @@
                            },
                            "properties": {
                              "name": "DON BOSCO"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.8627, 45.7672]
-                           },
-                           "properties": {
-                             "name": "BELLECOMBE"
                              }
                          },
 
@@ -2601,39 +2249,6 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.84073, 45.7844]
-                           },
-                           "properties": {
-                             "name": "L'ORATOIRE"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87083, 45.774]
-                           },
-                           "properties": {
-                             "name": "MERE TERESA"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87684, 45.7721]
-                           },
-                           "properties": {
-                             "name": "CLG GRATTE-CIEL MORICE LEROUX"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
                              "coordinates": [4.82744, 45.7784]
                            },
                            "properties": {
@@ -2645,10 +2260,21 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86596, 45.7385]
+                             "coordinates": [4.80274, 45.7485]
                            },
                            "properties": {
-                             "name": "COMBE BLANCHE"
+                             "name": "LOUISE CHASSAGNE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82189, 45.7797]
+                           },
+                           "properties": {
+                             "name": "ANTOINE DE SAINT-EXUPERY"
                              }
                          },
 
@@ -2667,10 +2293,32 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
+                             "coordinates": [4.81242, 45.7326]
+                           },
+                           "properties": {
+                             "name": "ASSOMPTION BELLEVUE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
                              "coordinates": [4.82245, 45.7718]
                            },
                            "properties": {
                              "name": "INSTITUTION DES CHARTREUX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81195, 45.7526]
+                           },
+                           "properties": {
+                             "name": "SAINT MARC"
                              }
                          },
 
@@ -2689,10 +2337,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.86353, 45.7764]
+                             "coordinates": [4.8116, 45.7575]
                            },
                            "properties": {
-                             "name": "DU TONKIN"
+                             "name": "FERDINAND BUISSON"
                              }
                          },
 
@@ -2711,43 +2359,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [4.87162, 45.7753]
+                             "coordinates": [4.83451, 45.7348]
                            },
                            "properties": {
-                             "name": "DESCARTES"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86719, 45.76]
-                           },
-                           "properties": {
-                             "name": "LAURENT MOURGUET"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.865, 45.7474]
-                           },
-                           "properties": {
-                             "name": "PAUL EMILE VICTOR"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.87006, 45.7449]
-                           },
-                           "properties": {
-                             "name": "LUMIERE"
+                             "name": "INTERNATIONALE LE PETIT MONDE"
                              }
                          },
 
@@ -2770,17 +2385,6 @@
                            },
                            "properties": {
                              "name": "JEAN PIERRE VEYET"
-                             }
-                         },
-
-                         {
-                           "type": "Feature",
-                           "geometry": {
-                             "type": "Point",
-                             "coordinates": [4.86912, 45.7416]
-                           },
-                           "properties": {
-                             "name": "SIMONE SIGNORET"
                              }
                          }
 ]

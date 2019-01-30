@@ -10,6 +10,7 @@ use AppBundle\Entity\Gare;
 use AppBundle\Entity\Pollution;
 use AppBundle\Entity\Ecole;
 use AppBundle\Entity\Interet;
+use AppBundle\Entity\Recherche;
 use AppBundle\Form\RechercheData;
 
 
@@ -28,7 +29,8 @@ class BackofficeController extends Controller
         $pollutionRepository = $this->getDoctrine()->getRepository(Pollution::class);
         $ecoleRepository = $this->getDoctrine()->getRepository(Ecole::class);
         $interetRepository = $this->getDoctrine()->getRepository(Interet::class);
-
+        $rechercheRepository = $this->getDoctrine()->getRepository(recherche::class);
+        dump($rechercheRepository->findAll());
         return $this->render('default/backoffice.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
@@ -57,7 +59,7 @@ class BackofficeController extends Controller
      */
     public function contentAction(Request $request)
     {
-        
+
         $em = $this->getDoctrine()->getManager();
         if ($request->getMethod() == 'POST') {
             $recherche = $request->request->get('keyword');

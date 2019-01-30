@@ -19,7 +19,6 @@ class SecurityController extends Controller
 
      // last username entered by the user
      $lastUsername = $authenticationUtils->getLastUsername();
-     dump($authenticationUtils);
 
      return $this->render('security/login.html.twig', array(
          'last_username' => $lastUsername,
@@ -37,7 +36,6 @@ class SecurityController extends Controller
 
       // last username entered by the user
       $lastUsername = $authenticationUtils->getLastUsername();
-      dump($authenticationUtils);
 
       return $this->render('security/login.html.twig', array(
           'last_username' => $lastUsername,

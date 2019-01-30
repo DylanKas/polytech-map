@@ -11,6 +11,7 @@ use AppBundle\Entity\Gare;
 use AppBundle\Entity\Pollution;
 use AppBundle\Entity\Interet;
 use AppBundle\Entity\Ecole;
+use AppBundle\Entity\Recherche;
 class DefaultController extends Controller
 {
     /**
@@ -31,6 +32,7 @@ class DefaultController extends Controller
           ->getRepository('AppBundle:Gare')
           ->findAll();
 
+          $entityManager = $this->getDoctrine()->getManager();
           $gareRepository = $this->getDoctrine()->getRepository(Gare::class);
           $pollutionRepository = $this->getDoctrine()->getRepository(Pollution::class);
           $ecoleRepository = $this->getDoctrine()->getRepository(Ecole::class);
@@ -142,6 +144,15 @@ class DefaultController extends Controller
                        $coef--;
                    }
                }
+               $currentRecherche = new Recherche();
+               $currentRecherche->setLatitude(($data['latlng']['lat']));
+               $currentRecherche->setLongitude(($data['latlng']['lng']));
+               $currentRecherche->setScore($scoreTotal);
+               $currentRecherche->setResultats( json_encode($jsonResult['result']));
+               $currentRecherche->setCriteres( json_encode($data['criterions']));
+               $entityManager->persist($currentRecherche);
+               $entityManager->flush();
+
               $jsonResult['result']['scoretotal']=$scoreTotal;
               return new JsonResponse($jsonResult);
            } else {
