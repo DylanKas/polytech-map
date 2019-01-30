@@ -124,6 +124,12 @@ class DefaultController extends Controller
                   $count_1km=count($features_1km->features);
                   $count_3km=count($features_3km->features);
 
+                  if($critere=='gare' || $critere=='fuel' || $critere=='post_office' || $critere=='bank'){
+                      $count_10km=$count_10k*5;
+                      $count_1km=$count_1k*5;
+                      $count_3km=$count_3k*5;
+                  }
+
                   $jsonResult['result']['criteres'][$critere]['score']=(5*$count_1km)+(3*($count_3km-$count_1km))+($count_10km-$count_1km-$count_3km);
                   $jsonResult['result']['criteres'][$critere]['description']="Test";
               }
