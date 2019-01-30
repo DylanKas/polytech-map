@@ -5,10 +5,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07813, 44.0997]
+                             "coordinates": [4.82637, 45.7607]
                            },
                            "properties": {
-                             "name": "JEANNE D'ARC"
+                             "name": "AUX LAZARISTES"
                              }
                          },
 
@@ -16,10 +16,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07425, 44.1069]
+                             "coordinates": [4.86654, 45.7525]
                            },
                            "properties": {
-                             "name": "LE CRÈS-ALBERT SÉGUIER"
+                             "name": "NIKOLA TESLA"
                              }
                          },
 
@@ -27,10 +27,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.08072, 44.1125]
+                             "coordinates": [4.82124, 45.7568]
                            },
                            "properties": {
-                             "name": "EDOUARD-ALFRED MARTEL"
+                             "name": "SAINT JUST"
                              }
                          },
 
@@ -38,10 +38,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07782, 44.0998]
+                             "coordinates": [4.86207, 45.7361]
                            },
                            "properties": {
-                             "name": "JEANNE D'ARC"
+                             "name": "AUGUSTE ET LOUIS LUMIERE"
                              }
                          },
 
@@ -49,10 +49,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.08062, 44.0978]
+                             "coordinates": [4.86028, 45.745]
                            },
                            "properties": {
-                             "name": "PAUL BERT - JEAN MACE"
+                             "name": "COLBERT"
                              }
                          },
 
@@ -60,10 +60,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.0633, 44.0978]
+                             "coordinates": [4.84753, 45.7588]
                            },
                            "properties": {
-                             "name": "LA CALENDRETA"
+                             "name": "RAOUL DUFY"
                              }
                          },
 
@@ -71,10 +71,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07381, 44.0984]
+                             "coordinates": [4.87011, 45.7467]
                            },
                            "properties": {
-                             "name": "CLG MARCEL AYMARD"
+                             "name": "CLG PROFESSEUR DARGENT"
                              }
                          },
 
@@ -82,10 +82,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.0796, 44.1021]
+                             "coordinates": [4.87302, 45.7415]
                            },
                            "properties": {
-                             "name": "MARGUERITE MARIE"
+                             "name": "PIERRE TERMIER"
                              }
                          },
 
@@ -93,10 +93,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.06871, 44.1009]
+                             "coordinates": [4.85812, 45.7492]
                            },
                            "properties": {
-                             "name": "SAINT-MARTIN"
+                             "name": "CHEVREUL"
                              }
                          },
 
@@ -104,10 +104,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07929, 44.102]
+                             "coordinates": [4.86766, 45.7381]
                            },
                            "properties": {
-                             "name": "EUGENE SELLES"
+                             "name": "O R T"
                              }
                          },
 
@@ -115,10 +115,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07791, 44.0998]
+                             "coordinates": [4.837, 45.7653]
                            },
                            "properties": {
-                             "name": "JEANNE D'ARC"
+                             "name": "AMPERE"
                              }
                          },
 
@@ -126,10 +126,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07646, 44.0995]
+                             "coordinates": [4.87208, 45.751]
                            },
                            "properties": {
-                             "name": "JULES FERRY"
+                             "name": "CHARLES DE FOUCAULD"
                              }
                          },
 
@@ -137,10 +137,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.05676, 44.0927]
+                             "coordinates": [4.88302, 45.7573]
                            },
                            "properties": {
-                             "name": "PUITS DE CALES"
+                             "name": "CLG JEAN JAURES"
                              }
                          },
 
@@ -148,10 +148,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.06563, 44.0981]
+                             "coordinates": [4.8771, 45.7722]
                            },
                            "properties": {
-                             "name": "JEAN-HENRI FABRE"
+                             "name": "DES GRATTE-CIEL MORICE LEROUX"
                              }
                          },
 
@@ -159,10 +159,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07349, 44.0982]
+                             "coordinates": [4.82649, 45.777]
                            },
                            "properties": {
-                             "name": "MARCEL AYMARD"
+                             "name": "LA SALLE LYON CROIX ROUSSE"
                              }
                          },
 
@@ -170,10 +170,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.05459, 44.092]
+                             "coordinates": [4.87692, 45.764]
                            },
                            "properties": {
-                             "name": "JEAN VIGO"
+                             "name": "JACQUES PREVERT"
                              }
                          },
 
@@ -181,10 +181,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.05459, 44.092]
+                             "coordinates": [4.86469, 45.7465]
                            },
                            "properties": {
-                             "name": "JEAN VIGO"
+                             "name": "LES LETTRES DOREES"
                              }
                          },
 
@@ -192,10 +192,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07771, 44.0999]
+                             "coordinates": [4.82234, 45.7418]
                            },
                            "properties": {
-                             "name": "JEANNE D'ARC"
+                             "name": "GERMAINE TILLION"
                              }
                          },
 
@@ -203,10 +203,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07137, 44.096]
+                             "coordinates": [4.82494, 45.7736]
                            },
                            "properties": {
-                             "name": "BEAUREGARD"
+                             "name": "LA TOURETTE"
                              }
                          },
 
@@ -214,10 +214,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.07433, 44.0987]
+                             "coordinates": [4.85698, 45.7472]
                            },
                            "properties": {
-                             "name": "SACRE COEUR"
+                             "name": "CRESTIN"
                              }
                          },
 
@@ -225,10 +225,10 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.08053, 44.0921]
+                             "coordinates": [4.87709, 45.7733]
                            },
                            "properties": {
-                             "name": "HOPITAL DU LARZAC"
+                             "name": "ROSA PARKS"
                              }
                          },
 
@@ -236,10 +236,2551 @@
                            "type": "Feature",
                            "geometry": {
                              "type": "Point",
-                             "coordinates": [3.06358, 44.0847]
+                             "coordinates": [4.82774, 45.7524]
                            },
                            "properties": {
-                             "name": "LES CASCADES"
+                             "name": "LA CHRYSALIDE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87065, 45.7659]
+                           },
+                           "properties": {
+                             "name": "MAGENTA"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83015, 45.7768]
+                           },
+                           "properties": {
+                             "name": "CAMILLE CLAUDEL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86651, 45.7754]
+                           },
+                           "properties": {
+                             "name": "LAKANAL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84432, 45.7535]
+                           },
+                           "properties": {
+                             "name": "GILBERT DRU"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84783, 45.7523]
+                           },
+                           "properties": {
+                             "name": "CHAVANT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86872, 45.7683]
+                           },
+                           "properties": {
+                             "name": "JUIF DE LYON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87051, 45.7737]
+                           },
+                           "properties": {
+                             "name": "MERE TERESA"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84963, 45.7662]
+                           },
+                           "properties": {
+                             "name": "CARREL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83757, 45.768]
+                           },
+                           "properties": {
+                             "name": "JAPY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83023, 45.7717]
+                           },
+                           "properties": {
+                             "name": "JEAN-BAPTISTE DE LA SALLE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82326, 45.7721]
+                           },
+                           "properties": {
+                             "name": "SAINT LOUIS-SAINT BRUNO"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85918, 45.7488]
+                           },
+                           "properties": {
+                             "name": "CHEVREUL LESTONNAC"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83975, 45.7527]
+                           },
+                           "properties": {
+                             "name": "BELMONT-CAPDEPON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82524, 45.7572]
+                           },
+                           "properties": {
+                             "name": "FULCHIRON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82601, 45.7759]
+                           },
+                           "properties": {
+                             "name": "JOSEPH CORNIER APPLICATION"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8349, 45.7794]
+                           },
+                           "properties": {
+                             "name": "COMMANDANT ARNAUD"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87084, 45.7558]
+                           },
+                           "properties": {
+                             "name": "MEYNIS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82375, 45.7478]
+                           },
+                           "properties": {
+                             "name": "GILIBERT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8287, 45.7686]
+                           },
+                           "properties": {
+                             "name": "ROBERT DOISNEAU"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87528, 45.7659]
+                           },
+                           "properties": {
+                             "name": "EDOUARD HERRIOT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85477, 45.7347]
+                           },
+                           "properties": {
+                             "name": "PHILIBERT DELORME"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84305, 45.7532]
+                           },
+                           "properties": {
+                             "name": "GILBERT DRU"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87145, 45.7756]
+                           },
+                           "properties": {
+                             "name": "DESCARTES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82532, 45.7573]
+                           },
+                           "properties": {
+                             "name": "FULCHIRON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86518, 45.7584]
+                           },
+                           "properties": {
+                             "name": "ANTOINE CHARIAL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87345, 45.7608]
+                           },
+                           "properties": {
+                             "name": "LOUIS JOUVET"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83255, 45.7676]
+                           },
+                           "properties": {
+                             "name": "DES ARTS DE LA COIFFURE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82621, 45.7637]
+                           },
+                           "properties": {
+                             "name": "SAINTE-MARIE LYON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84619, 45.7737]
+                           },
+                           "properties": {
+                             "name": "LA REDEMPTION"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87697, 45.7647]
+                           },
+                           "properties": {
+                             "name": "SAINTE THERESE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85011, 45.7642]
+                           },
+                           "properties": {
+                             "name": "JEAN JAURES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8325, 45.7602]
+                           },
+                           "properties": {
+                             "name": "LAMARTINE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87071, 45.7554]
+                           },
+                           "properties": {
+                             "name": "MEYNIS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86733, 45.7721]
+                           },
+                           "properties": {
+                             "name": "FRANCOIS TRUFFAUT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85017, 45.7612]
+                           },
+                           "properties": {
+                             "name": "ANDRE PHILIP"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87668, 45.752]
+                           },
+                           "properties": {
+                             "name": "CHARLES DE FOUCAULD"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83023, 45.7717]
+                           },
+                           "properties": {
+                             "name": "JEAN-BAPTISTE DE LA SALLE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86307, 45.7772]
+                           },
+                           "properties": {
+                             "name": "LOUIS ARMAND"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87022, 45.7565]
+                           },
+                           "properties": {
+                             "name": "PAUL BERT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.88239, 45.7685]
+                           },
+                           "properties": {
+                             "name": "ANATOLE FRANCE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84544, 45.7465]
+                           },
+                           "properties": {
+                             "name": "MARC BLOCH"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85367, 45.7348]
+                           },
+                           "properties": {
+                             "name": "PHILIBERT DELORME"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82878, 45.7541]
+                           },
+                           "properties": {
+                             "name": "LUCIE AUBRAC"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83135, 45.7397]
+                           },
+                           "properties": {
+                             "name": "LOUISE LABE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85793, 45.7457]
+                           },
+                           "properties": {
+                             "name": "LPO HECTOR GUIMARD"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82988, 45.7778]
+                           },
+                           "properties": {
+                             "name": "ATYS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83621, 45.7458]
+                           },
+                           "properties": {
+                             "name": "SOLIDAIRE DES PARENTS ET DES ENFANTS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85793, 45.7457]
+                           },
+                           "properties": {
+                             "name": "HECTOR GUIMARD"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84908, 45.7487]
+                           },
+                           "properties": {
+                             "name": "SAINT LOUIS DE LA GUILLOTIERE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83764, 45.7457]
+                           },
+                           "properties": {
+                             "name": "EC ENFANTS INTELL. PRECOCES LY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86654, 45.7525]
+                           },
+                           "properties": {
+                             "name": "NIKOLA TESLA"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82255, 45.7458]
+                           },
+                           "properties": {
+                             "name": "JEAN MONNET"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84102, 45.7502]
+                           },
+                           "properties": {
+                             "name": "GEORGES CLEMENCEAU"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86503, 45.7368]
+                           },
+                           "properties": {
+                             "name": "ALICE GUY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82667, 45.7656]
+                           },
+                           "properties": {
+                             "name": "SAINTE MARIE LYON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82729, 45.7764]
+                           },
+                           "properties": {
+                             "name": "DE COIFFURE DE LYON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8704, 45.7578]
+                           },
+                           "properties": {
+                             "name": "LACASSAGNE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86895, 45.7452]
+                           },
+                           "properties": {
+                             "name": "DU 1ER FILM"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87285, 45.7611]
+                           },
+                           "properties": {
+                             "name": "CLG LOUIS JOUVET"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82823, 45.7553]
+                           },
+                           "properties": {
+                             "name": "SAINT MARC"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83002, 45.768]
+                           },
+                           "properties": {
+                             "name": "LA MARTINIERE DIDEROT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82663, 45.7711]
+                           },
+                           "properties": {
+                             "name": "JACQUES DE FLESSELLES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86289, 45.7769]
+                           },
+                           "properties": {
+                             "name": "LOUIS ARMAND"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82621, 45.7639]
+                           },
+                           "properties": {
+                             "name": "AUX LAZARISTES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82889, 45.7551]
+                           },
+                           "properties": {
+                             "name": "SAINT MARC"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86669, 45.7653]
+                           },
+                           "properties": {
+                             "name": "NOTRE DAME DE BELLECOMBE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87826, 45.7524]
+                           },
+                           "properties": {
+                             "name": "CHARLES DE FOUCAULD"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83684, 45.7364]
+                           },
+                           "properties": {
+                             "name": "IPSO LYON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87011, 45.7467]
+                           },
+                           "properties": {
+                             "name": "PROFESSEUR DARGENT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8704, 45.7578]
+                           },
+                           "properties": {
+                             "name": "LACASSAGNE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82079, 45.7574]
+                           },
+                           "properties": {
+                             "name": "JEAN MOULIN"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86779, 45.7401]
+                           },
+                           "properties": {
+                             "name": "LA MARTINIERE MONPLAISIR"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86373, 45.7532]
+                           },
+                           "properties": {
+                             "name": "GILBERT DRU"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82026, 45.7446]
+                           },
+                           "properties": {
+                             "name": "MONTESSORI - LITTLE MATERNELLE - LYON CONFLUENCE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87828, 45.7711]
+                           },
+                           "properties": {
+                             "name": "PIERRE BROSSOLETTE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85072, 45.773]
+                           },
+                           "properties": {
+                             "name": "FENELON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83373, 45.7654]
+                           },
+                           "properties": {
+                             "name": "COURS PASCAL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82323, 45.772]
+                           },
+                           "properties": {
+                             "name": "SAINT LOUIS-SAINT BRUNO"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84543, 45.7703]
+                           },
+                           "properties": {
+                             "name": "JEAN RACINE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86694, 45.7509]
+                           },
+                           "properties": {
+                             "name": "NOVE JOSSERAND"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83957, 45.78]
+                           },
+                           "properties": {
+                             "name": "GEORGES LAPIERRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84643, 45.7704]
+                           },
+                           "properties": {
+                             "name": "JEAN RACINE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84484, 45.7578]
+                           },
+                           "properties": {
+                             "name": "PAUL PAINLEVE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84646, 45.7596]
+                           },
+                           "properties": {
+                             "name": "ANTOINE DE SAINT EXUPERY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87268, 45.7479]
+                           },
+                           "properties": {
+                             "name": "REBATEL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85074, 45.7575]
+                           },
+                           "properties": {
+                             "name": "DOLET"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8223, 45.7441]
+                           },
+                           "properties": {
+                             "name": "ALIX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85235, 45.7699]
+                           },
+                           "properties": {
+                             "name": "JEAN ROSTAND"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87414, 45.7699]
+                           },
+                           "properties": {
+                             "name": "EMILE ZOLA"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87533, 45.7655]
+                           },
+                           "properties": {
+                             "name": "EDOUARD HERRIOT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.88159, 45.7732]
+                           },
+                           "properties": {
+                             "name": "JEAN ZAY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84707, 45.7663]
+                           },
+                           "properties": {
+                             "name": "SAINT POTHIN-OZANAM"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85692, 45.7717]
+                           },
+                           "properties": {
+                             "name": "DU PARC"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84342, 45.7664]
+                           },
+                           "properties": {
+                             "name": "PIERRE CORNEILLE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85005, 45.764]
+                           },
+                           "properties": {
+                             "name": "JEAN JAURES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82005, 45.7555]
+                           },
+                           "properties": {
+                             "name": "MATHILDE SIRAUD"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8246, 45.7738]
+                           },
+                           "properties": {
+                             "name": "GROS CAILLOU  APPLICATION"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86464, 45.7585]
+                           },
+                           "properties": {
+                             "name": "ANTOINE CHARIAL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83122, 45.7509]
+                           },
+                           "properties": {
+                             "name": "CONDE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82597, 45.7705]
+                           },
+                           "properties": {
+                             "name": "VICTOR HUGO APPLICATION"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83689, 45.772]
+                           },
+                           "properties": {
+                             "name": "MICHEL SERVET"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8671, 45.744]
+                           },
+                           "properties": {
+                             "name": "PAUL EMILE VICTOR"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84661, 45.7461]
+                           },
+                           "properties": {
+                             "name": "MARC BLOCH"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82813, 45.7686]
+                           },
+                           "properties": {
+                             "name": "ROBERT DOISNEAU"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82522, 45.7705]
+                           },
+                           "properties": {
+                             "name": "VICTOR HUGO  APPLICATION"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85188, 45.7576]
+                           },
+                           "properties": {
+                             "name": "SAINT SACREMENT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86572, 45.7577]
+                           },
+                           "properties": {
+                             "name": "NOUVELLE DE LA RIZE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81905, 45.7736]
+                           },
+                           "properties": {
+                             "name": "PROVIDENCE DES TRINITAIRES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83156, 45.7794]
+                           },
+                           "properties": {
+                             "name": "SAINT DENIS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86575, 45.766]
+                           },
+                           "properties": {
+                             "name": "NOTRE DAME DE BELLECOMBE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83891, 45.7517]
+                           },
+                           "properties": {
+                             "name": "SAINT ANDRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84696, 45.7502]
+                           },
+                           "properties": {
+                             "name": "NOTRE DAME SAINT JOSEPH"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86872, 45.7683]
+                           },
+                           "properties": {
+                             "name": "NA'HALAT MOSHEY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8356, 45.7836]
+                           },
+                           "properties": {
+                             "name": "ELIE VIGNAL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84014, 45.7846]
+                           },
+                           "properties": {
+                             "name": "BERTHIE ALBRECHT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84477, 45.7705]
+                           },
+                           "properties": {
+                             "name": "VENDOME"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83025, 45.7562]
+                           },
+                           "properties": {
+                             "name": "DU SACRE COEUR"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84735, 45.7588]
+                           },
+                           "properties": {
+                             "name": "MAZENOD"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84344, 45.7663]
+                           },
+                           "properties": {
+                             "name": "PIERRE CORNEILLE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82324, 45.7438]
+                           },
+                           "properties": {
+                             "name": "ALIX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83693, 45.7723]
+                           },
+                           "properties": {
+                             "name": "MICHEL SERVET"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83112, 45.7709]
+                           },
+                           "properties": {
+                             "name": ""
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83234, 45.7547]
+                           },
+                           "properties": {
+                             "name": "MICHELET"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87046, 45.7507]
+                           },
+                           "properties": {
+                             "name": "MONTBRILLANT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8522, 45.7478]
+                           },
+                           "properties": {
+                             "name": "SAINT JOSEPH"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85918, 45.7488]
+                           },
+                           "properties": {
+                             "name": "CHEVREUL LESTONNAC"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87302, 45.7415]
+                           },
+                           "properties": {
+                             "name": "PIERRE TERMIER-SITE MONPLAISIR"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85918, 45.7488]
+                           },
+                           "properties": {
+                             "name": "CHEVREUL LESTONNAC"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86766, 45.7381]
+                           },
+                           "properties": {
+                             "name": "O R T"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84741, 45.7453]
+                           },
+                           "properties": {
+                             "name": "ECOLE DE CONDE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85402, 45.7557]
+                           },
+                           "properties": {
+                             "name": "LEON JOUHAUX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86339, 45.7658]
+                           },
+                           "properties": {
+                             "name": "ANTOINE REMOND"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87824, 45.7612]
+                           },
+                           "properties": {
+                             "name": "JEAN JAURES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82326, 45.7721]
+                           },
+                           "properties": {
+                             "name": "SAINT LOUIS - SAINT BRUNO"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81932, 45.7519]
+                           },
+                           "properties": {
+                             "name": "DON BOSCO"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87449, 45.7703]
+                           },
+                           "properties": {
+                             "name": "EMILE ZOLA"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83683, 45.7839]
+                           },
+                           "properties": {
+                             "name": "BERTHIE ALBRECHT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86749, 45.7598]
+                           },
+                           "properties": {
+                             "name": "POMPIDOU"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83305, 45.7742]
+                           },
+                           "properties": {
+                             "name": "AVEYRON APPLICATION"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87246, 45.7475]
+                           },
+                           "properties": {
+                             "name": "REBATEL HARMONIE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86871, 45.7684]
+                           },
+                           "properties": {
+                             "name": "JUIF DE LYON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85599, 45.7656]
+                           },
+                           "properties": {
+                             "name": "MONTAIGNE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83654, 45.7471]
+                           },
+                           "properties": {
+                             "name": "BERTHELOT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84511, 45.7657]
+                           },
+                           "properties": {
+                             "name": "EDOUARD HERRIOT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84663, 45.7682]
+                           },
+                           "properties": {
+                             "name": "EXTERNAT DE LA TRINITE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83156, 45.7794]
+                           },
+                           "properties": {
+                             "name": "SAINT DENIS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87724, 45.7457]
+                           },
+                           "properties": {
+                             "name": "SOCIETE ENSEIG. PROF. DU RHONE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83121, 45.7522]
+                           },
+                           "properties": {
+                             "name": "JULIETTE RÉCAMIER"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84102, 45.7502]
+                           },
+                           "properties": {
+                             "name": "CLG GEORGES CLEMENCEAU"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.837, 45.7653]
+                           },
+                           "properties": {
+                             "name": "AMPERE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82238, 45.7694]
+                           },
+                           "properties": {
+                             "name": "DIDEROT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83125, 45.7508]
+                           },
+                           "properties": {
+                             "name": "CONDE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83903, 45.753]
+                           },
+                           "properties": {
+                             "name": "CAVENNE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82667, 45.7656]
+                           },
+                           "properties": {
+                             "name": "SAINTE MARIE LYON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85567, 45.7667]
+                           },
+                           "properties": {
+                             "name": "DEBORDE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82245, 45.7718]
+                           },
+                           "properties": {
+                             "name": "INSTITUTION DES CHARTREUX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8543, 45.7653]
+                           },
+                           "properties": {
+                             "name": "SILVYA TERRADE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82837, 45.7651]
+                           },
+                           "properties": {
+                             "name": "JEAN GERSON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83915, 45.7812]
+                           },
+                           "properties": {
+                             "name": "GEORGES LAPIERRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86688, 45.7511]
+                           },
+                           "properties": {
+                             "name": "NOVE JOSSERAND"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86579, 45.7393]
+                           },
+                           "properties": {
+                             "name": "COMBE BLANCHE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83316, 45.7654]
+                           },
+                           "properties": {
+                             "name": "CLAUDE LEVI-STRAUSS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8728, 45.7415]
+                           },
+                           "properties": {
+                             "name": "PIERRE TERMIER"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83059, 45.7511]
+                           },
+                           "properties": {
+                             "name": "CHEVREUL SAINTE CROIX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85307, 45.7662]
+                           },
+                           "properties": {
+                             "name": "SAINT NOM DE JESUS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84306, 45.7683]
+                           },
+                           "properties": {
+                             "name": "DIOT"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85918, 45.7488]
+                           },
+                           "properties": {
+                             "name": "CHEVREUL - LESTONNAC"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82615, 45.7609]
+                           },
+                           "properties": {
+                             "name": "AUX LAZARISTES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83975, 45.7529]
+                           },
+                           "properties": {
+                             "name": "CAVENNE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83343, 45.7371]
+                           },
+                           "properties": {
+                             "name": "LES GIRONDINS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8169, 45.771]
+                           },
+                           "properties": {
+                             "name": "SAINT LOUIS-SAINT BRUNO"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82898, 45.756]
+                           },
+                           "properties": {
+                             "name": "CHEVREUL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85567, 45.7667]
+                           },
+                           "properties": {
+                             "name": "DEBORDE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.88217, 45.7636]
+                           },
+                           "properties": {
+                             "name": "LEON JOUHAUX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83507, 45.7794]
+                           },
+                           "properties": {
+                             "name": "COMMANDANT ARNAUD"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83105, 45.7796]
+                           },
+                           "properties": {
+                             "name": "LES PETITS CANUTS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.88187, 45.7729]
+                           },
+                           "properties": {
+                             "name": "JEAN ZAY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85178, 45.7669]
+                           },
+                           "properties": {
+                             "name": "MONTESSORI DE LYON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8771, 45.7499]
+                           },
+                           "properties": {
+                             "name": "JULES VERNE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85007, 45.7612]
+                           },
+                           "properties": {
+                             "name": "ANDRE PHILIP"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85322, 45.7677]
+                           },
+                           "properties": {
+                             "name": "J COUTY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86261, 45.7732]
+                           },
+                           "properties": {
+                             "name": "NIGRITELLE NOIRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84963, 45.7662]
+                           },
+                           "properties": {
+                             "name": "CARREL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83133, 45.7588]
+                           },
+                           "properties": {
+                             "name": "ARTS APPLIQUES BELLECOUR"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85238, 45.7546]
+                           },
+                           "properties": {
+                             "name": "MARKARIAN PAPAZIAN"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87013, 45.7738]
+                           },
+                           "properties": {
+                             "name": "CLG PR MERE TERESA"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85378, 45.7682]
+                           },
+                           "properties": {
+                             "name": "LOUIS PRADEL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82245, 45.7718]
+                           },
+                           "properties": {
+                             "name": "INSTITUTION DES CHARTREUX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85413, 45.7709]
+                           },
+                           "properties": {
+                             "name": "SAINT JOSEPH DES BROTTEAUX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86853, 45.7438]
+                           },
+                           "properties": {
+                             "name": "SAINT MAURICE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81666, 45.758]
+                           },
+                           "properties": {
+                             "name": "ALBERT CAMUS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87748, 45.7549]
+                           },
+                           "properties": {
+                             "name": "GRANDIR ET RIRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86729, 45.7786]
+                           },
+                           "properties": {
+                             "name": "HORIZONS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85729, 45.7518]
+                           },
+                           "properties": {
+                             "name": "AIME CESAIRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8248, 45.7521]
+                           },
+                           "properties": {
+                             "name": "ELEA PRESQU'ILE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85501, 45.7472]
+                           },
+                           "properties": {
+                             "name": "JULIE-VICTOIRE DAUBIE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82774, 45.7524]
+                           },
+                           "properties": {
+                             "name": "LA CHRYSALIDE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.88144, 45.7707]
+                           },
+                           "properties": {
+                             "name": "MONTESSORI"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86285, 45.7734]
+                           },
+                           "properties": {
+                             "name": "NIGRITELLE NOIRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87384, 45.7664]
+                           },
+                           "properties": {
+                             "name": "EDEN SCHOOL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82601, 45.7759]
+                           },
+                           "properties": {
+                             "name": "JOSEPH CORNIER APPLICATION"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8771, 45.7499]
+                           },
+                           "properties": {
+                             "name": "JULES VERNE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83923, 45.7392]
+                           },
+                           "properties": {
+                             "name": "FRANCOIS AUGUSTE RAVIER"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86341, 45.7657]
+                           },
+                           "properties": {
+                             "name": "ANTOINE REMOND"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86695, 45.7755]
+                           },
+                           "properties": {
+                             "name": "LAKANAL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.88224, 45.7682]
+                           },
+                           "properties": {
+                             "name": "ANATOLE FRANCE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87898, 45.7609]
+                           },
+                           "properties": {
+                             "name": "JEAN JAURES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82805, 45.7652]
+                           },
+                           "properties": {
+                             "name": "JEAN GERSON"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.81932, 45.7519]
+                           },
+                           "properties": {
+                             "name": "DON BOSCO"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.8627, 45.7672]
+                           },
+                           "properties": {
+                             "name": "BELLECOMBE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82639, 45.7559]
+                           },
+                           "properties": {
+                             "name": "INST TECHN CARRIERES CAROLE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83242, 45.7375]
+                           },
+                           "properties": {
+                             "name": "NOTRE DAME DES ANGES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84664, 45.7607]
+                           },
+                           "properties": {
+                             "name": "IMMACULEE CONCEPTION"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83963, 45.7467]
+                           },
+                           "properties": {
+                             "name": "SAINT MICHEL"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84073, 45.7844]
+                           },
+                           "properties": {
+                             "name": "L'ORATOIRE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87083, 45.774]
+                           },
+                           "properties": {
+                             "name": "MERE TERESA"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87684, 45.7721]
+                           },
+                           "properties": {
+                             "name": "CLG GRATTE-CIEL MORICE LEROUX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82744, 45.7784]
+                           },
+                           "properties": {
+                             "name": "LES CANUTS"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86596, 45.7385]
+                           },
+                           "properties": {
+                             "name": "COMBE BLANCHE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84494, 45.7573]
+                           },
+                           "properties": {
+                             "name": "PAUL PAINLEVE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.82245, 45.7718]
+                           },
+                           "properties": {
+                             "name": "INSTITUTION DES CHARTREUX"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85256, 45.7703]
+                           },
+                           "properties": {
+                             "name": "JEAN ROSTAND APPLICATION"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86353, 45.7764]
+                           },
+                           "properties": {
+                             "name": "DU TONKIN"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.83359, 45.7729]
+                           },
+                           "properties": {
+                             "name": "RAOUL DUFY"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87162, 45.7753]
+                           },
+                           "properties": {
+                             "name": "DESCARTES"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86719, 45.76]
+                           },
+                           "properties": {
+                             "name": "LAURENT MOURGUET"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.865, 45.7474]
+                           },
+                           "properties": {
+                             "name": "PAUL EMILE VICTOR"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.87006, 45.7449]
+                           },
+                           "properties": {
+                             "name": "LUMIERE"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.84658, 45.7666]
+                           },
+                           "properties": {
+                             "name": "CREQUI"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.85021, 45.7487]
+                           },
+                           "properties": {
+                             "name": "JEAN PIERRE VEYET"
+                             }
+                         },
+
+                         {
+                           "type": "Feature",
+                           "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.86912, 45.7416]
+                           },
+                           "properties": {
+                             "name": "SIMONE SIGNORET"
                              }
                          }
 ]
