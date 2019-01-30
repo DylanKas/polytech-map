@@ -7,10 +7,18 @@ $(document).ready(function() {
 
 modules.form = (() => {
 
+	let library = {};
+
 	let avBox = document.getElementById("available-cr");
 
 	let criterions = [];
 	let applied = [];
+
+	let init = (lib) => {
+
+		library = lib;
+		Object.keys(lib).forEach(key => newCriterion(key, lib[key].name, lib[key].img));
+	}
 
 	let newCriterion = (id, name, imgsrc) => {
 
@@ -55,11 +63,60 @@ modules.form = (() => {
 		}
 	}
 
+	let getCriterion = (id) => library[id];
+
 	return {
-		newCriterion,
+		init,
 		apply,
 		unapply,
+		getCriterion,
 		applied: () => applied.slice()
+	}
+})();
+
+modules.score = (() => {
+
+	let scoreMain = document.getElementById("score-main");
+	let scoreData = document.getElementById("score-data");
+
+	compute = (data) => {
+
+		scoreData.innerHTML = "";
+		scoreMain.innerHTML = data.scoretotal;
+		Object.keys(data.criteres).forEach(key => {
+			let crit = modules.form.getCriterion(key);
+			addScoreData(key, crit.name, crit.img, data.criteres[key].score);
+		});
+	}
+
+	addScoreData = (id, name, imgsrc, result) => {
+
+		var c = document.createElement("a");
+		c.className = "border job-item d-block d-md-flex align-items-center border-bottom freelance";
+		c.setAttribute("id", "criterion-result-el-" + name.split(' ').join('-'));
+		var imgwrap = document.createElement("div");
+		imgwrap.className = "company-logo blank-logo text-center text-md-left pl-3";
+		var cimg = document.createElement("img");
+		cimg.className = "img-fluid mx-auto";
+		cimg.src = imgsrc;
+		cimg.alt = "Image";
+		imgwrap.append(cimg);
+		c.append(imgwrap);
+		var cmain = document.createElement("div");
+		cmain.className = "job-details h-100";
+		var namewrap = document.createElement("div");
+		namewrap.className = "p-3 align-self-center";
+		var cname = document.createElement("h3");
+		cmain.className = "score-main";
+		cname.textContent = result;
+		namewrap.append(cname);
+		c.append(namewrap);
+		scoreData.append(c);
+	}
+
+	return {
+
+		compute
 	}
 })();
 
@@ -126,6 +183,7 @@ modules.map = (() => {
 		case "pharmacy":
 		case "library":
 			return drawIcon(id, 27);
+		case "post_office":
 		case "ecole":
 		case "bank":
 		case "restaurant":
@@ -166,17 +224,33 @@ modules.app = (() => {
 
 	let run = () => {
 
+		let library = {
+			gare: { name: "Gares ferroviaires", img: "images/icons/station.png" },
+			pharmacy: { name: "Pharmacies", img: "images/icons/pharmacy.png" },
+			library: { name: "Bibliothèques", img: "images/icons/library.png" },
+			post_office: { name: "Bureaux de poste", img: "images/icons/post_office.png" },
+			ecole: { name: "Ecoles", img: "images/icons/school.png" },
+			bank: { name: "Banques", img: "images/icons/bank.png" },
+			restaurant: { name: "Restaurants", img: "images/icons/restaurant.png" },
+			cafe: { name: "Cafés", img: "images/icons/cafe.png" },
+			fuel: { name: "Stations d'essence", img: "images/icons/fuel.png" },
+			parking: { name: "Parkings", img: "images/icons/parking.png" },
+			atm: { name: "Distributeurs automatiques", img: "images/icons/atm.png" }
+		}
+
 		modules.map.init();
-		modules.form.newCriterion("gare", "Gares ferroviaires", "images/icons/station.png");
+		modules.form.init(library);
+		/*modules.form.newCriterion("gare", "Gares ferroviaires", "images/icons/station.png");
 		modules.form.newCriterion("pharmacy", "Pharmacies", "images/icons/pharmacy.png");
 		modules.form.newCriterion("library", "Bibliothèques", "images/icons/library.png");
+		modules.form.newCriterion("post_office", "Bureaux de poste", "images/icons/post_office.png");
 		modules.form.newCriterion("ecole", "Ecoles", "images/icons/school.png");
 		modules.form.newCriterion("bank", "Banques", "images/icons/bank.png");
 		modules.form.newCriterion("restaurant", "Restaurants", "images/icons/restaurant.png");
 		modules.form.newCriterion("cafe", "Cafés", "images/icons/cafe.png");
 		modules.form.newCriterion("fuel", "Stations d'essence", "images/icons/fuel.png");
 		modules.form.newCriterion("parking", "Parkings", "images/icons/parking.png");
-		modules.form.newCriterion("atm", "Distributeurs automatiques", "images/icons/atm.png");
+		modules.form.newCriterion("atm", "Distributeurs automatiques", "images/icons/atm.png");*/
 		//modules.form.newCriterion("pollution", "Pollution", "images/icons/pollution.png");
 	}
 

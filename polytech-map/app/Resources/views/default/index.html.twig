@@ -21,7 +21,7 @@
           <div class="py-1">
             <div class="row align-items-center">
               <div class="col-8">
-                <h2 class="mb-0 site-logo"><img id="main-icon" src="favicon.png" alt="icon"/><a href="index.html">Scor<strong class="font-weight-bold">ly</strong> </a></h2>
+                <h2 class="mb-0 site-logo"><img id="main-icon" src="favicon.png" alt="icon"/>Scor<strong class="font-weight-bold">ly</strong></h2>
               </div>
             </div>
           </div>
@@ -125,8 +125,17 @@
           </div>
           <div class="col-4">
             <div class="row">
-              <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-                <h2 class="mb-5 red-heading">Score</h2>
+              <div class="col-md-6 mx-auto text-center mb-3 section-heading">
+                <h2 class="mb-3 red-heading">Score</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 mx-auto text-center">
+                <h2 id="score-main" class="score-main"></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div id="score-data" class="col-md-12 jobs-wrap">
               </div>
             </div>
           </div>
@@ -262,6 +271,7 @@
     var success = (data) => {
       document.getElementById("step3").scrollIntoView({ block: 'start',  behavior: 'smooth' });
       modules.map.compute([latlng.lat, latlng.lng], data.map);
+      modules.score.compute(data.result);
     }
 
     $.ajax({
