@@ -91,6 +91,9 @@ a {
 		// font-weight: 300;
 		// letter-spacing: .2em;
 	}
+	&.btn-finish {
+		margin-top: 1em;
+	}
 	&:hover {
 		box-shadow: 0 5px 20px -7px rgba(0,0,0,.9)!important;
 	}

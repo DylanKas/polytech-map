@@ -1,15 +1,30 @@
+#main-icon {
+
+	height: 1em;
+	margin-right: 1em;
+}
+
 .site-navbar-wrap {
-	background: $white!important;
+	background: rgba(255, 255, 255, 0) !important;
 	position: fixed;
-	z-index: 99;
+	z-index: 10000;
 	width: 100%;
-	padding: 20px 0;
+	padding: 10px 0;
 	margin-bottom: 113px;
 	left: 0;
 	transition: .3s all ease;
+
+	h2 a {
+			color: white !important;
+	}
+
 	&.scrolled {
-		padding: 0px 0;
+		background: rgba(255, 255, 255, 1) !important;
 		box-shadow: 0 0 30px -5px rgba(0, 0, 0, .1);
+
+		h2 a {
+			color: black !important;
+		}
 	}
 }
 .site-navbar-top {
@@ -28,10 +43,14 @@
 	border-bottom: 1px solid rgba($black, .1);
 }
 .site-navbar {
+
+	&.bg-light, .bg-light {
+		background: none !important;
+	}
 	margin-bottom: 0px;
 	width: 100%;
 	border-bottom: none;
-	background: $white!important;
+	//background: $white!important;
 	
 	.site-logo {
 		font-weight: 200;
