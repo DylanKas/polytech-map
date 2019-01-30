@@ -70,7 +70,7 @@ class DefaultController extends Controller
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 3,'atm');
                   }
                   else if($critere=='restaurant'){
-                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 5,'restaur');
+                      $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 5,'restaurant');
                   }
                   else if($critere=='bank'){
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 5,'bank');
