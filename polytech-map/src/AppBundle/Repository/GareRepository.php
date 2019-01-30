@@ -53,5 +53,11 @@ class GareRepository extends \Doctrine\ORM\EntityRepository
             "SELECT e FROM AppBundle:Gare e WHERE UPPER(e.nom) = UPPER('".$recherche. "') OR UPPER(e.nature) = UPPER('".$recherche. "')")->setMaxResults(500)->getResult();
         return $res;
     }
+    
+    public function findNbDataGare(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Gare e")->getResult();
+        return $res; 
+    }
 
 }

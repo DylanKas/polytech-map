@@ -51,5 +51,11 @@ class EcoleRepository extends \Doctrine\ORM\EntityRepository
 
         return $this->getEntityManager()->getConnection()->executeQuery($commandeSQL)->fetchAll();
     }
+    
+    public function findNbDataEcole(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Ecole e")->getResult();
+        return $res; 
+    }
 
 }
