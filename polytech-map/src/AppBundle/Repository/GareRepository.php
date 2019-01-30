@@ -10,6 +10,7 @@ namespace AppBundle\Repository;
  */
 class GareRepository extends \Doctrine\ORM\EntityRepository
 {
+
         public function genererGeoJSON($latitude, $longitude, $rayon){
                 $json = "{
                     \"type\": \"FeatureCollection\",
@@ -42,9 +43,15 @@ class GareRepository extends \Doctrine\ORM\EntityRepository
                 return $json;
         }
 
-        public function executerSQL($commandeSQL){
+    public function executerSQL($commandeSQL){
 
-            return $this->getEntityManager()->getConnection()->executeQuery($commandeSQL)->fetchAll();
-        }
+        return $this->getEntityManager()->getConnection()->executeQuery($commandeSQL)->fetchAll();
+    }
+    
+    public function findAllByRecherche($recherche){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT e FROM AppBundle:Gare e WHERE UPPER(e.nom) = UPPER('".$recherche. "') OR UPPER(e.nature) = UPPER('".$recherche. "')")->setMaxResults(500)->getResult();
+        return $res;
+    }
 
 }

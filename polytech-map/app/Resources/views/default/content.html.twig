@@ -150,42 +150,168 @@
 
         <div class="content">
             <div class="container-fluid">
+                <form action="" method="post">
+                    Recherche : 
+                    <input type="text" name="keyword" />
+                    <input type="submit" value="Rechercher">
+                </form>
                     <div class="row">
                         <div class="content table-responsive table-full-width">
-                            <table style="margin: 25px" id="example" class="table table-hover table-striped">
+                            Ecoles
+                            <table style="margin: 25px" id="ecoleTab" class="table table-hover table-striped">
                             <thead>
                                 <tr>
-                                    <th>Nom</th>
-                                    <th>Description</th>
-                                    <th>Nombre de sélection du critère</th>
-                                    <th>Nombre de données</th>
+                                    <th>Latitude</th>
+                                    <th>Longitude</th>
+                                    <th>Patronyme</th>
+                                    <th>Secteur</th>
+                                    <th>Nature</th>
+                                    <th>Etat</th>
+                                    <th>Academie</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                {% for ecole in ecoles %}
+                                    <tr>
+                                        <td>{{ecole.latitude}}</td>
+                                        <td>{{ecole.longitude}}</td>
+                                        <td>{{ecole.patronyme}}</td>
+                                        <td>{{ecole.secteur}}</td>
+                                        <td>{{ecole.nature}}</td>
+                                        <td>{{ecole.etat}}</td>
+                                        <td>{{ecole.academie}}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                            {#
+                            <tfoot>
                                 <tr>
-                                    <td>Gare</td>
-                                    <td>Données des gares et des lignes en France.</td>
-                                    <td>TODO</td>
-                                    <td>TODO</td>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
                                 </tr>
+                            </tfoot>
+                            #}
+                        </table>
+                    </div>
+                    
+                    <div class="content table-responsive table-full-width">
+                        Gares
+                        <table style="margin: 25px" id="gareTab" class="table table-hover table-striped">
+                            <thead>
                                 <tr>
-                                    <td>Pollution</td>
-                                    <td>Données sur la pollution en France.<br>Concerne <strong>pm25</strong>, <strong>pm10</strong>, <strong>o3</strong> et <strong>no2</strong></td>
-                                    <td>TODO</td>
-                                    <td>TODO</td>
+                                    <th>Code Ligne</th>
+                                    <th>Nom</th>
+                                    <th>Nature</th>
+                                    <th>Latitude</th>
+                                    <th>Longitude</th>
                                 </tr>
+                            </thead>
+                            <tbody>
+                                {% for gare in gares %}
+                                    <tr>
+                                        <td>{{gare.codeLigne}}</td>
+                                        <td>{{gare.nom}}</td>
+                                        <td>{{gare.nature}}</td>
+                                        <td>{{gare.latitude}}</td>
+                                        <td>{{gare.longitude}}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                            {#
+                            <tfoot>
                                 <tr>
-                                    <td>École</td>
-                                    <td>Données sur les institutions académiques en France. (Primaire, Collège, Lycée..)</td>
-                                    <td>TODO</td>
-                                    <td>TODO</td>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
                                 </tr>
+                            </tfoot>
+                            #}
+                        </table>
+                    </div>
+                    
+                    <div class="content table-responsive table-full-width">
+                        Interets
+                        <table style="margin: 25px" id="interetTab" class="table table-hover table-striped">
+                            <thead>
                                 <tr>
-                                    <td>Point d'intérêt</td>
-                                    <td>Données sur les points d'intérêts en France.<br>Concerne beaucoup de données comme : <strong>Restaurants</strong>, <strong>Bancs publics</strong>,<strong>Cabines téléphoniques</strong>...</td>
-                                    <td>TODO</td>
-                                    <td>TODO</td>
+                                    <th>Latitude</th>
+                                    <th>Longitude</th>
+                                    <th>Amenity</th>
+                                    <th>Capacity</th>
+                                    <th>Network</th>
+                                    <th>Operator</th>
+                                    <th>Vending</th>
+                                    <th>Wheelchair</th>
+                                    <th>Website</th>
+                                    <th>Note</th>
+                                    <th>Description</th>
+                                    <th>OtherTags</th>
                                 </tr>
+                            </thead>
+                            <tbody>
+                                {% for interet in interets %}
+                                    <tr>
+                                        <td>{{interet.latitude}}</td>
+                                        <td>{{interet.longitude}}</td>
+                                        <td>{{interet.amenity}}</td>
+                                        <td>{{interet.capacity}}</td>
+                                        <td>{{interet.network}}</td>
+                                        <td>{{interet.operator}}</td>
+                                        <td>{{interet.vending}}</td>
+                                        <td>{{interet.wheelchair}}</td>
+                                        <td>{{interet.website}}</td>
+                                        <td>{{interet.note}}</td>
+                                        <td>{{interet.description}}</td>
+                                        <td>{{interet.otherTags}}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                            {#
+                            <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                </tr>
+                            </tfoot>
+                            #}
+                        </table>
+                    </div>
+                        
+                    <div class="content table-responsive table-full-width">
+                        Pollution
+                        <table style="margin: 25px" id="pollutionTab" class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Latitude</th>
+                                    <th>Longitude</th>
+                                    <th>pm25</th>
+                                    <th>pm10</th>
+                                    <th>o3</th>
+                                    <th>no2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for pollution in pollutions %}
+                                    <tr>
+                                        <td>{{pollution.latitude}}</td>
+                                        <td>{{pollution.longitude}}</td>
+                                        <td>{{pollution.pm25}}</td>
+                                        <td>{{pollution.pm10}}</td>
+                                        <td>{{pollution.o3}}</td>
+                                        <td>{{pollution.no2}}</td>
+                                    </tr>
+                                {% endfor %}
                             </tbody>
                             {#
                             <tfoot>
@@ -278,7 +404,10 @@
                 type: 'info',
                 timer: 4000
             });
-            $('#example').DataTable();
+            $('#ecoleTab').DataTable();
+            $('#gareTab').DataTable();
+            $('#interetTab').DataTable();
+            $('#pollutionTab').DataTable();
         });
     </script>
 {% endblock %}

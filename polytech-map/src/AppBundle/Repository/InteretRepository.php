@@ -10,6 +10,12 @@ namespace AppBundle\Repository;
  */
 class InteretRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function findAllByRecherche($recherche){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT e FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('".$recherche. "')")->setMaxResults(500)->getResult();
+        return $res; 
+    }
+
 
     public function genererGeoJSON($latitude, $longitude, $rayon,$interet,$returnSqlArray=false){
             $json = "{

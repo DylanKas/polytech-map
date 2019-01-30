@@ -10,6 +10,7 @@ use AppBundle\Entity\Gare;
 use AppBundle\Entity\Pollution;
 use AppBundle\Entity\Ecole;
 use AppBundle\Entity\Interet;
+use AppBundle\Form\RechercheData;
 
 
 class BackofficeController extends Controller
@@ -56,8 +57,23 @@ class BackofficeController extends Controller
      */
     public function contentAction(Request $request)
     {
+        
+        $em = $this->getDoctrine()->getManager();
+        if ($request->getMethod() == 'POST') {
+            $recherche = $request->request->get('keyword');
+            $ecoles = $em->getRepository('AppBundle:Ecole')->findAllByRecherche($recherche);
+            $gares = $em->getRepository('AppBundle:Gare')->findAllByRecherche($recherche);
+            $interets = $em->getRepository('AppBundle:Interet')->findAllByRecherche($recherche);
+            $pollutions = $em->getRepository('AppBundle:Pollution')->findBy(array(), null, 0, null);
+        } else {
+        //$request->query->get
+            $ecoles = $em->getRepository('AppBundle:Ecole')->findBy(array(), null, 50, null);
+            $gares = $em->getRepository('AppBundle:Gare')->findBy(array(), null, 50, null);
+            $interets = $em->getRepository('AppBundle:Interet')->findBy(array(), null, 50, null);
+            $pollutions = $em->getRepository('AppBundle:Pollution')->findBy(array(), null, 50, null);
+        }
         // replace this example code with whatever you need
-        return $this->render('default/content.html.twig');
+        return $this->render('default/content.html.twig', ["ecoles" => $ecoles, "gares" => $gares, "interets" => $interets, "pollutions" => $pollutions]);
     }
 
     /**

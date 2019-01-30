@@ -10,6 +10,11 @@ namespace AppBundle\Repository;
  */
 class EcoleRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function findAllByRecherche($recherche){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT e FROM AppBundle:Ecole e WHERE UPPER(e.patronyme) = UPPER('".$recherche. "') OR UPPER(e.nature) = UPPER('".$recherche. "') OR UPPER(e.academie) = UPPER('".$recherche. "')")->setMaxResults(500)->getResult();
+        return $res;
+    }
     public function genererGeoJSON($latitude, $longitude, $rayon){
             $json = "{
                 \"type\": \"FeatureCollection\",
