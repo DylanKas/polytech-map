@@ -10,6 +10,12 @@ namespace AppBundle\Repository;
  */
 class InteretRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function findAllByRecherche($recherche){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT e FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('".$recherche. "')")->setMaxResults(500)->getResult();
+        return $res; 
+    }
+
 
     public function genererGeoJSON($latitude, $longitude, $rayon,$interet,$returnSqlArray=false){
             $json = "{
@@ -52,5 +58,52 @@ class InteretRepository extends \Doctrine\ORM\EntityRepository
 
         return $this->getEntityManager()->getConnection()->executeQuery($commandeSQL)->fetchAll();
     }
+    
+    public function findNbDataPharmacies(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('pharmacy')")->getResult();
+        return $res; 
+    }
+    
+    public function findNbDataBibliotheque(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('library')")->getResult();
+        return $res; 
+    }
+    
+    public function findNbDataBanque(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('bank')")->getResult();
+        return $res; 
+    }
+    
+    public function findNbDataCafe(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('cafe')")->getResult();
+        return $res; 
+    }
+    
+    public function findNbDataDistributeur(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('atm')")->getResult();
+        return $res; 
+    }
+    
+    public function findNbDataRestaurant(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('restaurant')")->getResult();
+        return $res; 
+    }
+    
+    public function findNbDataEssence(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('fuel')")->getResult();
+        return $res; 
+    }
 
+    public function findNbDataParking(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Interet e WHERE UPPER(e.amenity) = UPPER('parking')")->getResult();
+        return $res; 
+    }
 }
