@@ -46,5 +46,11 @@ class PollutionRepository extends \Doctrine\ORM\EntityRepository
 
         return $this->getEntityManager()->getConnection()->executeQuery($commandeSQL)->fetchAll();
     }
+    
+    public function findNbDataPollution(){
+        $res = $this->getEntityManager()->createQuery(
+            "SELECT COUNT(e) FROM AppBundle:Pollution e")->getResult();
+        return $res; 
+    }
 
 }

@@ -50,8 +50,21 @@ class BackofficeController extends Controller
      */
     public function dataAction(Request $request)
     {
-        // replace this example code with whatever you need
-        return $this->render('default/data.html.twig');
+        
+        $em = $this->getDoctrine()->getManager();
+        
+        $nbPharmacies = $em->getRepository('AppBundle:Interet')->findNbDataPharmacies()[0][1];
+        $nbBiblio = $em->getRepository('AppBundle:Interet')->findNbDataBibliotheque()[0][1];
+        $nbBanque = $em->getRepository('AppBundle:Interet')->findNbDataBanque()[0][1];
+        $nbCafe = $em->getRepository('AppBundle:Interet')->findNbDataCafe()[0][1];
+        $nbAtm = $em->getRepository('AppBundle:Interet')->findNbDataDistributeur()[0][1];
+        $nbResto = $em->getRepository('AppBundle:Interet')->findNbDataRestaurant()[0][1];
+        $nbEssence = $em->getRepository('AppBundle:Interet')->findNbDataEssence()[0][1];
+        $nbParking = $em->getRepository('AppBundle:Interet')->findNbDataParking()[0][1];
+        $nbEcole = $em->getRepository('AppBundle:Ecole')->findNbDataEcole()[0][1];
+        $nbGare = $em->getRepository('AppBundle:Gare')->findNbDataGare()[0][1];
+        $nbPollution = $em->getRepository('AppBundle:Pollution')->findNbDataPollution()[0][1];
+        return $this->render('default/data.html.twig', ["pharma" => $nbPharmacies, "biblio" => $nbBiblio, "banque" => $nbBanque, "cafe" => $nbCafe, "atm" => $nbAtm, "resto" => $nbResto, "essence" => $nbEssence, "parking" => $nbParking, "ecole" => $nbEcole, "gare" => $nbGare, "pollution" => $nbPollution]);
     }
 
     /**
@@ -74,7 +87,7 @@ class BackofficeController extends Controller
             $interets = $em->getRepository('AppBundle:Interet')->findBy(array(), null, 50, null);
             $pollutions = $em->getRepository('AppBundle:Pollution')->findBy(array(), null, 50, null);
         }
-        // replace this example code with whatever you need
+        
         return $this->render('default/content.html.twig', ["ecoles" => $ecoles, "gares" => $gares, "interets" => $interets, "pollutions" => $pollutions]);
     }
 
