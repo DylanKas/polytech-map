@@ -11,8 +11,7 @@ namespace AppBundle\Repository;
 class GareRepository extends \Doctrine\ORM\EntityRepository
 {
         public function genererGeoJSON($latitude, $longitude, $rayon){
-                $json = "
-                    {
+                $json = "{
                     \"type\": \"FeatureCollection\",
                     \"features\": [";
                     $listePoints = $this->executerSQL("CALL get_points_gares($latitude, $longitude, $rayon);");
@@ -22,7 +21,7 @@ class GareRepository extends \Doctrine\ORM\EntityRepository
                                \"type\": \"Feature\",
                                \"geometry\": {
                                  \"type\": \"Point\",
-                                 \"coordinates\": [". strval($point["latitude"]) . ", " . strval($point["longitude"]) ."]
+                                 \"coordinates\": [". strval($point["longitude"]) . ", " . strval($point["latitude"]) ."]
                                },
                                \"properties\": {
                                  \"name\": \"Gare de ". $point["nom"] ."\"

@@ -10,4 +10,41 @@ namespace AppBundle\Repository;
  */
 class EcoleRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function genererGeoJSON($latitude, $longitude, $rayon){
+            $json = "{
+                \"type\": \"FeatureCollection\",
+                \"features\": [";
+                $listePoints = $this->executerSQL("CALL get_points_ecoles($latitude, $longitude, $rayon);");
+                foreach ($listePoints as $point) {
+                $json .= "
+                         {
+                           \"type\": \"Feature\",
+                           \"geometry\": {
+                             \"type\": \"Point\",
+                             \"coordinates\": [". strval($point["longitude"]) . ", " . strval($point["latitude"]) ."]
+                           },
+                           \"properties\": {
+                             \"name\": \"". $point["patronyme"] ."\"
+                             }
+                         },\n";
+                }
+                $json = substr($json, 0, -2);
+                $json.= "\n]\n}";
+                if (!$handle = fopen("geo.json", 'w')) {
+                     echo "Impossible d'ouvrir le fichier (geo.json)";
+                     exit;
+                }
+                if (fwrite($handle, $json) === FALSE) {
+                    echo "Impossible d'écrire dans le fichier (geo.json)";
+                    exit;
+                }
+                fclose($handle);
+            return $json;
+    }
+
+    public function executerSQL($commandeSQL){
+
+        return $this->getEntityManager()->getConnection()->executeQuery($commandeSQL)->fetchAll();
+    }
+
 }

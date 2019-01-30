@@ -12,12 +12,12 @@ modules.form = (() => {
 	let criterions = [];
 	let applied = [];
 
-	let newCriterion = (name, imgsrc) => {
+	let newCriterion = (id, name, imgsrc) => {
 
 		var c = document.createElement("a");
 		c.className = "border job-item d-block d-md-flex align-items-center border-bottom freelance";
 		c.setAttribute("id", "criterion-el-" + name.split(' ').join('-'));
-		c.setAttribute("criterion-name", name);
+		c.setAttribute("criterion-id", id);
 		c.setAttribute("draggable", "true");
 		c.setAttribute("ondragstart", "drag(event)");
 		//c.setAttribute("onmousedown", "select(event)");
@@ -47,9 +47,18 @@ modules.form = (() => {
 		applied.push(name);
 	}
 
+	let unapply = (name) => {
+
+		var index = applied.indexOf(name);
+		if (index !== -1) {
+		    applied.splice(index, 1);
+		}
+	}
+
 	return {
 		newCriterion,
 		apply,
+		unapply,
 		applied: () => applied.slice()
 	}
 })();
@@ -66,21 +75,21 @@ modules.map = (() => {
 		  // load a tile layer
 		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}',
 		    {
-		      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		      maxZoom:109,
+		      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+		      maxZoom: 13,
 		      minZoom: 5,
     		  id: 'mapbox.streets',
 		      token: "pk.eyJ1IjoiZmx5bm5zcCIsImEiOiJjamZ1eDMzeWcwdWNsMzRxcW13emE0eDV4In0.ISjzHgiemEAyrgxIlqFRfw"
 		    }).addTo(map);
 
 		  // initialize the map
-		  var map2 = L.map('map-result').setView([46.8000, 2.3522], 5);
+		  map2 = L.map('map-result').setView([46.8000, 2.3522], 5);
 
 		  // load a tile layer
 		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}',
 		    {
 		      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		      maxZoom: 10,
+		      maxZoom: 17,
 		      minZoom: 5,
     		  id: 'mapbox.streets',
 		      token: "pk.eyJ1IjoiZmx5bm5zcCIsImEiOiJjamZ1eDMzeWcwdWNsMzRxcW13emE0eDV4In0.ISjzHgiemEAyrgxIlqFRfw"
@@ -93,16 +102,55 @@ modules.map = (() => {
 
 	let focus = (latlng) => {
 
-		map.setView(latlng, 8);
+		map.setView(latlng, 13);
 	}
 
-	let compute = (latlng, geojson) => {
+	let compute = (latlng, data) => {
 
-		map.setView(latlng, 8);
-		console.log(geojson);
-		//var layer = L.geoJSON().addTo(map2);
-		//layer.addData(geojson);
-		L.geoJSON(geojson).addTo(map2);
+		/*map2.eachLayer(function (layer) {
+		    map2.removeLayer(layer);
+		});*/
+
+		map2.setView(latlng, 14);
+
+      	Object.keys(data).forEach(key => {
+      		var geojson = L.geoJSON(data[key], idToStyle(key));
+			geojson.addTo(map2);
+      	});
+	}
+
+	let idToStyle = (id) => {
+
+		switch (id) {
+		case "gare":
+		case "pharmacy":
+		case "library":
+			return drawIcon(id, 27);
+		case "ecole":
+		case "bank":
+		case "restaurant":
+		case "cafe":
+		case "fuel":
+		case "parking":
+		case "atm":
+			return drawIcon(id, 18);
+        default: return {}
+		}
+	}
+
+	let drawIcon = (name, size) => {
+
+		return {
+	            pointToLayer: function(feature, coords) {
+	                var smallIcon = new L.Icon({
+					     iconSize: [size, size],
+					     iconAnchor: [Math.floor(size/2), size],
+					     popupAnchor:  [1, Math.floor(size*0.9)],
+					     iconUrl: 'images/map/' + name + '.png'
+					 });
+	                return L.marker(coords, {icon: smallIcon});
+	            }
+	        }
 	}
 
 	
@@ -119,9 +167,17 @@ modules.app = (() => {
 	let run = () => {
 
 		modules.map.init();
-		modules.form.newCriterion("Gares ferroviaires", "images/icons/pollution.png");
-		modules.form.newCriterion("Autre critère", "images/icons/pollution.png");
-		//dragula([document.getElementById("list-criterions"), document.getElementById("available-cr")]);
+		modules.form.newCriterion("gare", "Gares ferroviaires", "images/icons/station.png");
+		modules.form.newCriterion("pharmacy", "Pharmacies", "images/icons/pharmacy.png");
+		modules.form.newCriterion("library", "Bibliothèques", "images/icons/library.png");
+		modules.form.newCriterion("ecole", "Ecoles", "images/icons/school.png");
+		modules.form.newCriterion("bank", "Banques", "images/icons/bank.png");
+		modules.form.newCriterion("restaurant", "Restaurants", "images/icons/restaurant.png");
+		modules.form.newCriterion("cafe", "Cafés", "images/icons/cafe.png");
+		modules.form.newCriterion("fuel", "Stations d'essence", "images/icons/fuel.png");
+		modules.form.newCriterion("parking", "Parkings", "images/icons/parking.png");
+		modules.form.newCriterion("atm", "Distributeurs automatiques", "images/icons/atm.png");
+		//modules.form.newCriterion("pollution", "Pollution", "images/icons/pollution.png");
 	}
 
 	return {
