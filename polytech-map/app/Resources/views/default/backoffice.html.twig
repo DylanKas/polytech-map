@@ -165,7 +165,7 @@
                             </thead>
                             <tbody>
                                 {% for recherche in recherches%}
-                                    <tr> 
+                                    <tr>
                                         <td>{{recherche.time_stamp|date('d-m-Y H:i')}}</td>
                                         <td>{{recherche.criteres|replace({ ("["): "" })|replace({ ("]"): "" })}}</td>
                                         <td>{{recherche.resultats}}</td>
@@ -174,7 +174,7 @@
                                         <td>{{recherche.longitude}}</td>
                                     </tr>
                                 {% endfor %}
-                                
+
                             </tbody>
                             {#
                             <tfoot>
@@ -257,16 +257,6 @@
     <script type="text/javascript">
         $(document).ready(function(){
 
-            demo.initChartist();
-
-            $.notify({
-                icon: 'pe-7s-gift',
-                message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
-
-            },{
-                type: 'info',
-                timer: 4000
-            });
 
         });
     </script>
