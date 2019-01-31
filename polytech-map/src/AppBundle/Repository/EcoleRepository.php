@@ -35,6 +35,7 @@ class EcoleRepository extends \Doctrine\ORM\EntityRepository
                 }
                 $json = substr($json, 0, -2);
                 $json.= "\n]\n}";
+                /*
                 if (!$handle = fopen("geo.json", 'w')) {
                      echo "Impossible d'ouvrir le fichier (geo.json)";
                      exit;
@@ -44,6 +45,7 @@ class EcoleRepository extends \Doctrine\ORM\EntityRepository
                     exit;
                 }
                 fclose($handle);
+                */
             return $json;
     }
 
@@ -51,11 +53,11 @@ class EcoleRepository extends \Doctrine\ORM\EntityRepository
 
         return $this->getEntityManager()->getConnection()->executeQuery($commandeSQL)->fetchAll();
     }
-    
+
     public function findNbDataEcole(){
         $res = $this->getEntityManager()->createQuery(
             "SELECT COUNT(e) FROM AppBundle:Ecole e")->getResult();
-        return $res; 
+        return $res;
     }
 
 }
