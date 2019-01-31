@@ -30,7 +30,6 @@ class BackofficeController extends Controller
         $ecoleRepository = $this->getDoctrine()->getRepository(Ecole::class);
         $interetRepository = $this->getDoctrine()->getRepository(Interet::class);
         $rechercheRepository = $this->getDoctrine()->getRepository(recherche::class);
-        dump($rechercheRepository->findAll());
         return $this->render('default/backoffice.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
@@ -50,9 +49,9 @@ class BackofficeController extends Controller
      */
     public function dataAction(Request $request)
     {
-        
+
         $em = $this->getDoctrine()->getManager();
-        
+
         $nbPharmacies = $em->getRepository('AppBundle:Interet')->findNbDataPharmacies()[0][1];
         $nbBiblio = $em->getRepository('AppBundle:Interet')->findNbDataBibliotheque()[0][1];
         $nbBanque = $em->getRepository('AppBundle:Interet')->findNbDataBanque()[0][1];
@@ -87,7 +86,7 @@ class BackofficeController extends Controller
             $interets = $em->getRepository('AppBundle:Interet')->findBy(array(), null, 50, null);
             $pollutions = $em->getRepository('AppBundle:Pollution')->findBy(array(), null, 50, null);
         }
-        
+
         return $this->render('default/content.html.twig', ["ecoles" => $ecoles, "gares" => $gares, "interets" => $interets, "pollutions" => $pollutions]);
     }
 
