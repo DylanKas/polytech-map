@@ -49,12 +49,12 @@ class DefaultController extends Controller
 
                   if($critere=='gare'){
                       $result=$gareRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10);
-                     // $result_1km=$gareRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 1);
+                      $result_1km=$gareRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 1);
                     //  $result_3km=$gareRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 3);
                   }
                   else if($critere=='ecole'){
                       $result=$ecoleRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'],10);
-                     // $result_1km=$ecoleRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 1);
+                      $result_1km=$ecoleRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 1);
                     //  $result_3km=$ecoleRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 3);
                   }
                   else if($critere=='pollution'){
@@ -94,7 +94,7 @@ class DefaultController extends Controller
                   }
                   else if($critere=='bank'){
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 5,'bank');
-                    //  $result_1km=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 1,'bank');
+                      $result_1km=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 1,'bank');
                      // $result_3km=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 3,'bank');
                   }
                   else if($critere=='library'){
@@ -114,26 +114,30 @@ class DefaultController extends Controller
                   }
                   else if($critere=='fuel'){
                       $result=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 10,'fuel');
-                      // $result_1km=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 1,'fuel');
+                       $result_1km=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 1,'fuel');
                      // $result_3km=$interetRepository->genererGeoJSON($data['latlng']['lat'], $data['latlng']['lng'], 3,'fuel');
                   }
 
                   $jsonResult['map'][$critere]=json_decode($result);
                   $features=json_decode($result);
                   $features_1km=json_decode($result_1km);
-                  $features_3km=json_decode($result_1km);
+                  $features_3km=$features_1km;
                   $count_10km=count($features->features);
                   $count_1km=count($features_1km->features);
-                  $count_3km=count($features_3km->features);
+                  $count_3km=$count_1km;
 
-                  if($critere=='gare' || $critere=='fuel' || $critere=='post_office' || $critere=='bank' || $critere=='ecole'){
-                      $count_10km=$count_10k*2;
+                  if($critere=='gare' || $critere=='fuel'){
+                      $count_10km=$count_10km*6;
                       //On desactive l'amélioration du score pour la proximité
-                      $count_1km=1*5;
-                      $count_3km=1*3;
-                     //$count_1km=$count_1k*5;
-                     //$count_3km=$count_3k*3;
-                  }
+                     $count_1km=$count_1km*5;
+                     $count_3km=$count_3km*3;
+                 }
+                 if( $critere=='post_office' || $critere=='bank'){
+                     $count_10km=$count_10km*4;
+                     //On desactive l'amélioration du score pour la proximité
+                    $count_1km=$count_1km*5;
+                    $count_3km=$count_3km*3;
+                }
 
                   $jsonResult['result']['criteres'][$critere]['score']=(5*$count_1km)+(3*($count_3km-$count_1km))+($count_10km-$count_1km-$count_3km);
                   $jsonResult['result']['criteres'][$critere]['description']="Description";
