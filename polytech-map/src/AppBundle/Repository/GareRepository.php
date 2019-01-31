@@ -31,6 +31,7 @@ class GareRepository extends \Doctrine\ORM\EntityRepository
                     }
                     $json = substr($json, 0, -2);
                     $json.= "\n]\n}";
+                    /*
                     if (!$handle = fopen("geo.json", 'w')) {
                          echo "Impossible d'ouvrir le fichier (geo.json)";
                          exit;
@@ -40,6 +41,7 @@ class GareRepository extends \Doctrine\ORM\EntityRepository
                         exit;
                     }
                     fclose($handle);
+                    */
                 return $json;
         }
 
@@ -47,17 +49,17 @@ class GareRepository extends \Doctrine\ORM\EntityRepository
 
         return $this->getEntityManager()->getConnection()->executeQuery($commandeSQL)->fetchAll();
     }
-    
+
     public function findAllByRecherche($recherche){
         $res = $this->getEntityManager()->createQuery(
             "SELECT e FROM AppBundle:Gare e WHERE UPPER(e.nom) = UPPER('".$recherche. "') OR UPPER(e.nature) = UPPER('".$recherche. "')")->setMaxResults(500)->getResult();
         return $res;
     }
-    
+
     public function findNbDataGare(){
         $res = $this->getEntityManager()->createQuery(
             "SELECT COUNT(e) FROM AppBundle:Gare e")->getResult();
-        return $res; 
+        return $res;
     }
 
 }
