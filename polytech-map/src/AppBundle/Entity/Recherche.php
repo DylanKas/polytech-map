@@ -107,6 +107,15 @@ class Recherche
         return $this->score;
     }
     /**
+     * Get time_stamp
+     *
+     * @return /Datetime
+     */
+    public function getTime_stamp()
+    {
+        return $this->time_stamp;
+    }
+    /**
      * Get resultats
      *
      * @return string

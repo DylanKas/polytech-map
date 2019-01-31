@@ -31,8 +31,9 @@ class BackofficeController extends Controller
         $interetRepository = $this->getDoctrine()->getRepository(Interet::class);
         $rechercheRepository = $this->getDoctrine()->getRepository(recherche::class);
         dump($rechercheRepository->findAll());
+        $recherches = $rechercheRepository->findAll();
         return $this->render('default/backoffice.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR, "recherches" => $recherches
         ]);
     }
 
